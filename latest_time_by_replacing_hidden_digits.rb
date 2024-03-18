@@ -1,3 +1,6 @@
+# https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/description/
+# 1736. Latest Time by Replacing Hidden Digits
+
 # @param {String} time
 # @return {String}
 def maximum_time(time)
