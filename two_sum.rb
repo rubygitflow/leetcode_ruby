@@ -32,6 +32,9 @@ p two_sum([3,3], 5)
 # 2 pointer apporach
 # Time complexity: O(logn)
 # Space complexity: O(1)
+# @param {Integer[]} numbers
+# @param {Integer} target
+# @return {Integer[]}
 def two_sum_sorted(numbers, target)
   n = numbers.length
   left = 0
