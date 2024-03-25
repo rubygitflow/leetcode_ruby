@@ -13,7 +13,7 @@ def minimum_time_required(jobs, k)
   while x.length > 0 do
     i = 0
     baskets[basket_num] = x.shift
-    avg = [avg, baskets[basket_num]].max 
+    avg = [avg, baskets[basket_num]].max
     while i < x.length do
       if baskets[basket_num] + x[i] <= avg
         baskets[basket_num] += x.slice!(i, 1)[0]
@@ -21,7 +21,7 @@ def minimum_time_required(jobs, k)
         i += 1
       end
     end
-    if basket_num < k - 1 
+    if basket_num < k - 1
       basket_num += 1
     else
       baskets[basket_num] += x.sum
