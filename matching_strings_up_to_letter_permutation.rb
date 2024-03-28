@@ -32,3 +32,5 @@ p match_substring('reebokee', 'bee')
 # Output: 1
 p match_substring('colorados', 'dosar')
 # Output: 4
+p match_substring('reebokee', 'mee')
+# Output: -1
