@@ -24,12 +24,9 @@ def k_sum(start, k, target, nums)
       next if index != start && nums[index] == nums[index - 1]
 
       set = k_sum(index + 1, k - 1, target - nums[index], nums)
-
       next unless set != []
 
-      set = set.map { |array| array.flatten + [nums[index]] }
-
-      res += set
+      res += set.map { |array| array.flatten + [nums[index]] }
     end
     res.uniq
   end
@@ -62,4 +59,4 @@ p four_sum([1,0,-1,0,-2,2], 0)
 p four_sum([2,2,2,2,2], 8)
 # Output: [[2,2,2,2]]
 p four_sum([2,2,2,2,2], 9)
-# Output: [[]]
+# Output: []
