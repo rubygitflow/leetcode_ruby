@@ -4,6 +4,7 @@ Solving algorithmic problems on leetcode.com
 - [1. Two Sum](https://leetcode.com/problems/two-sum/) >>> [two_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/two_sum.rb)
 - [15. 3Sum](https://leetcode.com/problems/3sum/) >>> [three_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/three_sum.rb)
 - [18. 4Sum](https://leetcode.com/problems/4sum/) >>> [four_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/four_sum.rb)
+- [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/two_sum.rb)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [870. Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) >>> [advantage_shuffle.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/advantage_shuffle.rb)
@@ -15,7 +16,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/matching_strings_up_to_letter_permutation.rb)
 
-**Tasks: 10(1)  >>> Files: 10**
+**Tasks: 11(1)  >>> Files: 10**
 
 ## Install
 ```shell
