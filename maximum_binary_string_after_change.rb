@@ -14,7 +14,10 @@ def maximum_binary_string(binary)
   while c_first_ones<l && binary[c_first_ones]=='1' do c_first_ones+=1 end
   c_zeros = binary.count('0')
   # The solution formula
-  '1'*c_first_ones+'1'*(c_zeros>0 ? c_zeros-1 : 0)+'0'*(c_zeros>0 ? 1 : 0)+'1'*(l-c_first_ones-c_zeros)
+  '1'*c_first_ones+
+  '1'*(c_zeros>0 ? c_zeros-1 : 0)+
+  '0'*(c_zeros>0 ? 1 : 0)+
+  '1'*(l-c_first_ones-c_zeros)
 end
 
 p maximum_binary_string("000110")
