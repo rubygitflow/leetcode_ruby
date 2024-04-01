@@ -19,11 +19,11 @@ def alert_names(key_name, key_time)
   hash.each do |name, times|
     times.sort!
     (0...(times.length - 2)).each do |i|
-        time_diff = times[i + 2] - times[i]
-        if time_diff <= total_time
-            output << name
-            break
-        end
+      time_diff = times[i + 2] - times[i]
+      if time_diff <= total_time
+        output << name
+        break
+      end
     end
   end
   output.sort
