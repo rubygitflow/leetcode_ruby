@@ -6,19 +6,19 @@
 # @return {Integer}
 def mincost_tickets(days, costs)
   is_travels = (days.last + 1).times.map{|day| days.include?(day) ? true : false}
-  dp = [0]*(days.last + 1)
+  min_costs = [0]*(days.last + 1)
   (1..days.last).each do |day|
-    dp[day] = if is_travels[day]
-      dp[day] = [
-        dp[day-1] + costs[0],
-        dp[[day-7, 0].max] + costs[1],
-        dp[[day-30, 0].max] + costs[2]
+    min_costs[day] = if is_travels[day]
+      min_costs[day] = [
+        min_costs[day-1] + costs[0],
+        min_costs[[day-7, 0].max] + costs[1],
+        min_costs[[day-30, 0].max] + costs[2]
       ].min
     else
-      dp[day-1]
+      min_costs[day-1]
     end
   end
-  dp[days.last]
+  min_costs[days.last]
 end
 
 p mincost_tickets([1,4,6,7,8,20], [2,7,15])
