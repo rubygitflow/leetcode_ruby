@@ -18,3 +18,5 @@ p max_number_of_balloons("loonbalxballpoon")
 # Output: 2
 p max_number_of_balloons("leetcode")
 # Output: 0
+p max_number_of_balloons("regret")
+# Output: 0
