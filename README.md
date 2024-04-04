@@ -13,6 +13,7 @@ Solving algorithmic problems on leetcode.com
 - [1189. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) >>> [maximum_number_of_balloons.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/maximum_number_of_balloons.rb)
 - [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) >>> [critical_connections_in_a_network.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/critical_connections_in_a_network.rb)
 - [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) >>> [minimum_time_visiting_all_points.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_time_visiting_all_points.rb)
+- [1450. Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) >>> [number_of_students_doing_homework_at_a_given_time.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/number_of_students_doing_homework_at_a_given_time.rb)
 - [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) >>> [running_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/running_sum.rb)
 - [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) >>> [minimum_time_to_make_rope_colorful.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_time_to_make_rope_colorful.rb)
 - [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/) >>> [alert_using_same_key_card.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/alert_using_same_key_card.rb)
@@ -26,7 +27,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/matching_strings_up_to_letter_permutation.rb)
 
-**Tasks: 21(1)  >>> Files: 20**
+**Tasks: 22(1)  >>> Files: 21**
 
 ## Install
 ```shell
