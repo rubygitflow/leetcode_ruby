@@ -10,6 +10,7 @@ Solving algorithmic problems on leetcode.com
 - [870. Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) >>> [advantage_shuffle.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/advantage_shuffle.rb)
 - [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) >>> [minimum_cost_for_tickets.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_cost_for_tickets.rb)
 - [1109. Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) >>> [corporate_flight_bookings.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/corporate_flight_bookings.rb)
+- [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) >>> [critical_connections_in_a_network.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/critical_connections_in_a_network.rb)
 - [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) >>> [minimum_time_visiting_all_points.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_time_visiting_all_points.rb)
 - [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) >>> [running_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/running_sum.rb)
 - [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) >>> [minimum_time_to_make_rope_colorful.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_time_to_make_rope_colorful.rb)
@@ -23,7 +24,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/matching_strings_up_to_letter_permutation.rb)
 
-**Tasks: 18(1)  >>> Files: 17**
+**Tasks: 19(1)  >>> Files: 18**
 
 ## Install
 ```shell
