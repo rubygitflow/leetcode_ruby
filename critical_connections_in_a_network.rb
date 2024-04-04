@@ -30,7 +30,9 @@ def critical_connections(n, connections)
     @graph[u] << v
     @graph[v] << u
   end
-  dfs(0,-1)
+  (0...n).each do |i|
+    dfs(i,-1) unless @visited[i]
+  end
   @bridges
 end
 
@@ -45,8 +47,8 @@ p critical_connections(5, [[0,1],[1,2],[2,0],[1,3],[3,4],[4,1]])
 p critical_connections(6, [[0,1],[1,2],[2,0],[1,3],[3,4],[4,5],[5,3]])
 # Output: [[1,3]]
 # 2 donuts
-p critical_connections(6, [[0,1],[1,2],[2,0],      [3,4],[4,5],[5,3]])
-# Output: []
+p critical_connections(7, [[0,1],[1,2],[2,0],      [3,4],[4,5],[5,3],[5,6]])
+# Output: [[5,6]]
 # star
 p critical_connections(7, [[0,1],[0,2],[2,3],[0,4],[0,5],[5,6]])
 # Output: [[0, 1], [2, 3], [0, 2], [0, 4], [5, 6], [0, 5]]
