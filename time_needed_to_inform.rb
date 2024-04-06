@@ -14,10 +14,10 @@ def num_of_minutes(n, head_id, manager, inform_time)
   dfs(head_id, inform_time)
 end
 
-def dfs(i, inform_time)
+def dfs(emp, inform_time)
   output = 0
-  @team[i].each do |el|
-    output = [output, dfs(el, inform_time) + inform_time[i]].max
+  @team[emp].each do |el|
+    output = [output, dfs(el, inform_time) + inform_time[emp]].max
   end
   output
 end
