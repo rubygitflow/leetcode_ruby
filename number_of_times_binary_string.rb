@@ -5,9 +5,11 @@
 # @return {Integer}
 def num_times_all_blue(flips)
   output = right = 0
-  0.upto(flips.size - 1) do |i|
-    right = [right, flips[i]].max
-    output += 1 if right == i + 1
+  0.upto(flips.size - 1) do |left|
+    # we store only the right value of the passed range
+    right = [right, flips[left]].max
+    # True counter for the left-th step
+    output += 1 if right == left + 1
   end
   output
 end
