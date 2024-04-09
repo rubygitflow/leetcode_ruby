@@ -8,6 +8,7 @@ Solving algorithmic problems on leetcode.com
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/two_sum.rb)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [870. Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) >>> [advantage_shuffle.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/advantage_shuffle.rb)
+- [949. Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) >>> [largest_time_for_given_digits.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/largest_time_for_given_digits.rb)
 - [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) >>> [minimum_cost_for_tickets.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_cost_for_tickets.rb)
 - [1109. Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) >>> [corporate_flight_bookings.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/corporate_flight_bookings.rb)
 - [1189. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) >>> [maximum_number_of_balloons.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/maximum_number_of_balloons.rb)
@@ -34,7 +35,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/matching_strings_up_to_letter_permutation.rb)
 
-**Tasks: 29(1)  >>> Files: 28**
+**Tasks: 30(1)  >>> Files: 29**
 
 ## Install
 ```shell
