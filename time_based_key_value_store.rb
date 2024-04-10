@@ -60,10 +60,10 @@ end
 obj = TimeMap.new()
 # obj.set(key, value, timestamp)
 # param_2 = obj.get(key, timestamp)
-commands = ["get", "set", "get", "get", "set", "get", "get", "get"]
-resources = [["foo", 1], ["foo", "bar", 1], ["foo", 1], ["foo", 3], ["foo", "bar2", 4], ["foo", 4], ["foo", 5], ["foo", 2]]
+commands = ["get", "set", "get", "get", "set", "get", "get", "get", "get"]
+resources = [["foo", 1], ["foo", "bar", 1], ["foo", 1], ["foo", 3], ["foo", "bar2", 4], ["foo", 4], ["foo", 5], ["foo", 2], ["too", 1]]
 # Output
-# ["", nil, "bar", "bar", nil, "bar2", "bar2", "bar"]
+# ["", nil, "bar", "bar", nil, "bar2", "bar2", "bar", ""]
 commands.zip(resources).each do |com, inp| 
   if com == 'set'
     output = obj.set(inp[0],inp[1],inp[2])
