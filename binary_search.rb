@@ -16,7 +16,7 @@ def search(nums, target)
       l = mid + 1
     end
   end
-  return -1
+  -1
 end
 
 # @param {Integer[]} nums
