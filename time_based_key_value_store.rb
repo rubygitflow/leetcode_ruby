@@ -73,4 +73,3 @@ commands.zip(resources).each do |com, inp|
     puts(param_2.inspect)
   end 
 end
-
