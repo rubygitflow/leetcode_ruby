@@ -15,6 +15,7 @@ Solving algorithmic problems on leetcode.com
 - [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) >>> [time_based_key_value_store.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/time_based_key_value_store.rb)
 - [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) >>> [minimum_cost_for_tickets.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_cost_for_tickets.rb)
 - [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) >>> [last_stone_weight.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/last_stone_weight.rb)
+- [1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) >>> [last_stone_weight.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/last_stone_weight.rb)
 - [1109. Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) >>> [corporate_flight_bookings.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/corporate_flight_bookings.rb)
 - [1189. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) >>> [maximum_number_of_balloons.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/maximum_number_of_balloons.rb)
 - [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) >>> [critical_connections_in_a_network.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/critical_connections_in_a_network.rb)
@@ -40,7 +41,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/matching_strings_up_to_letter_permutation.rb)
 
-**Tasks: 35(1)  >>> Files: 33**
+**Tasks: 36(1)  >>> Files: 33**
 
 ## Install
 ```shell
