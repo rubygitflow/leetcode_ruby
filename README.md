@@ -13,6 +13,7 @@ Solving algorithmic problems on leetcode.com
 - [870. Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) >>> [advantage_shuffle.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/advantage_shuffle.rb)
 - [949. Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) >>> [largest_time_for_given_digits.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/largest_time_for_given_digits.rb)
 - [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) >>> [time_based_key_value_store.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/time_based_key_value_store.rb)
+- [982. Triples with Bitwise AND Equal To Zero](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/) >>> [triples_with_bitwise.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/triples_with_bitwise.rb)
 - [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) >>> [minimum_cost_for_tickets.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_cost_for_tickets.rb)
 - [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) >>> [last_stone_weight.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/last_stone_weight.rb)
 - [1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) >>> [last_stone_weight.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/last_stone_weight.rb)
@@ -41,7 +42,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/matching_strings_up_to_letter_permutation.rb)
 
-**Tasks: 36(1)  >>> Files: 33**
+**Tasks: 37(1)  >>> Files: 34**
 
 ## Install
 ```shell
