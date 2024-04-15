@@ -9,6 +9,7 @@ Solving algorithmic problems on leetcode.com
 - [146. LRU Cache](https://leetcode.com/problems/lru-cache/) >>> [lru_cache.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/lru_cache.rb)
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/two_sum.rb)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
+- [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) >>> [sliding_window_median.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/sliding_window_median.rb)
 - [704. Binary Search](https://leetcode.com/problems/binary-search/) >>> [binary_search.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/binary_search.rb)
 - [870. Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) >>> [advantage_shuffle.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/advantage_shuffle.rb)
 - [949. Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) >>> [largest_time_for_given_digits.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/largest_time_for_given_digits.rb)
@@ -44,7 +45,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/matching_strings_up_to_letter_permutation.rb)
 
-**Tasks: 39(1)  >>> Files: 36**
+**Tasks: 40(1)  >>> Files: 37**
 
 ## Install
 ```shell
