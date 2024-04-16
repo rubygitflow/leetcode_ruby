@@ -24,6 +24,10 @@ p median_sliding_window([1,2,3,4,2,3,1,4,2], 3)
 # Output: [2, 3, 3, 3, 2, 3, 2]
 p median_sliding_window([1,3,-1,-3,5,3,6,7], 4)
 # Output: [0.0, 1.0, 1.0, 4.0, 5.5]
+p median_sliding_window([1,3,-1,-3,5,3,6,7], 1)
+# Output: [1,3,-1,-3,5,3,6,7]
+p median_sliding_window([1,3,-1,-3,5,3,6,7], 10)
+# Output: []
 
 
 #######################
