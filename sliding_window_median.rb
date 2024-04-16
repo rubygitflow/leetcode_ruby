@@ -46,3 +46,5 @@ p max_sliding_window([1,3,-1,-3,5,3,6,7], 3)
 # Output: [3,3,5,5,6,7]
 p max_sliding_window([1], 1)
 # Output: [1]
+p max_sliding_window([1,3,-1,-3,5,3,6,7], 10)
+# Output: []
