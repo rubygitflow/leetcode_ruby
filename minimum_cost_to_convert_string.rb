@@ -48,7 +48,9 @@ def minimum_cost(source, target, original, changed, cost)
 end
 
 p minimum_cost("abcd","acbe",["a","b","c","c","e","d"],["b","c","b","e","b","e"],[2,5,5,1,2,20])
-# Output: 28
+# Output: 28 (5 > 1+2)
+p(minimum_cost("abcd","acbe",["a","b","c","c","f","e","d"],["b","c","b","f","e","b","e"],[2,5,5,1,2,1,20]))
+# Output: 29 (5 > 1+2+1)
 p minimum_cost("aaaa","bbbb",["a","c"],["c","b"],[1,2])
 # Output: 12
 p minimum_cost("aaaa","bbbb",["a","c"],["d","b"],[1,2])
