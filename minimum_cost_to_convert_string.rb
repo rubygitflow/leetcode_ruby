@@ -43,13 +43,16 @@ def minimum_cost(source, target, original, changed, cost)
   return -1 if (actioned_out.to_set - @changed_set).any?
 
   min_paths = compare_all_paths(original, changed, cost)
-  actioned_inp.zip(actioned_out).inject(0) { |res, val| res + min_paths[val[0]][val[1]] }
+  output = actioned_inp.zip(actioned_out).inject(0) { |res, val| res + min_paths[val[0]][val[1]] }
+  output.infinite? ? -1 : output
 end
 
 p minimum_cost("abcd","acbe",["a","b","c","c","e","d"],["b","c","b","e","b","e"],[2,5,5,1,2,20])
 # Output: 28
 p minimum_cost("aaaa","bbbb",["a","c"],["c","b"],[1,2])
 # Output: 12
+p minimum_cost("aaaa","bbbb",["a","c"],["d","b"],[1,2])
+# Output: -1
 p minimum_cost("aaaa","bbbb",["a","c","a","d","e"],["c","b","d","e","b"],[3,2,1,1,1])
 # Output: 12
 p minimum_cost("abcd","abce",["a"],["e"],[10000])
