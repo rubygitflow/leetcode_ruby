@@ -126,7 +126,11 @@ p minimum_cost_II("fgh","ghh",["bcd","fgh","thh"],["cde","thh","ghh"],[1,3,5])
 # Output: 8
 p minimum_cost_II("fgh","ghh",["fgh","f","g","thh"],["thh","g","h","ghh"],[3,1,1,5])
 # Output: 2 (1+1 < 3+5)
+p minimum_cost_II("fgh","f&&",["fgh","fgh"],["f&&","f&"],[11,1])
+# Output: 11
 p minimum_cost_II("abcdefgh","acdeeghh",["bcd","fgh","thh"],["cde","thh","ghh"],[1,3,5])
 # Output: 9
 p minimum_cost_II("abcdefgh","addddddd",["bcd","defgh"],["ddd","ddddd"],[100,1578])
 # Output: -1
+p minimum_cost_II("aaa","aaa",["a"],["e"],[10000])
+# Output: 0
