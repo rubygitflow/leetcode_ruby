@@ -26,6 +26,7 @@ Solving algorithmic problems on leetcode.com
 - [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) >>> [minimum_time_visiting_all_points.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_time_visiting_all_points.rb)
 - [1375. Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) >>> [number_of_times_binary_string.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/number_of_times_binary_string.rb)
 - [1376. Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) >>> [time_needed_to_inform.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/time_needed_to_inform.rb)
+- [1443. Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/) >>> [collect_all_apples_in_tree.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/collect_all_apples_in_tree.rb)
 - [1450. Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) >>> [number_of_students_doing_homework_at_a_given_time.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/number_of_students_doing_homework_at_a_given_time.rb)
 - [1451. Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/) >>> [rearrange_words_in_a_sentence.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/rearrange_words_in_a_sentence.rb)
 - [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) >>> [running_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/running_sum.rb)
@@ -48,7 +49,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/matching_strings_up_to_letter_permutation.rb)
 
-**Tasks: 43(1)  >>> Files: 38**
+**Tasks: 44(1)  >>> Files: 39**
 
 ## Install
 ```shell
