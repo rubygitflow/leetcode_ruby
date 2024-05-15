@@ -85,6 +85,7 @@ def minimum_cost_II(source, target, original, changed, cost)
   # Step _: Initialize necessary data structures and variables
   @original_set = Set[*original]
   @changed_set  = Set[*changed]
+  original_len_set = Set[*original.map(&:length)]
   source_len = source.length
   dp = [INF] * (source_len + 1)
 
@@ -99,8 +100,7 @@ def minimum_cost_II(source, target, original, changed, cost)
     source_char = source[i]
     target_char = target[i]
     dp[i + 1] = [dp[i + 1], dp[i]].min if source_char == target_char
-    @original_set.each do |substring|
-      substring_len = substring.length
+    original_len_set.each do |substring_len|
       next if i + substring_len > source_len
 
       sub_source = source[i,substring_len]
