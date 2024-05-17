@@ -29,6 +29,7 @@ def min_time(n, edges, has_apple)
 
   dfs.(0, 0)
 end
+
 p min_time(7,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]],[false,false,true,false,true,true,false])
 # Output: 8 
 p min_time(7,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]],[false,false,true,false,false,true,false])
