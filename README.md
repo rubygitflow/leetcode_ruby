@@ -55,6 +55,7 @@ Solving algorithmic problems on leetcode.com
 ## Install
 ```shell
 $ git clone git@github.com:rubygitflow/leetcode_ruby.git && cd leetcode_ruby/
+$ gem install algorithms
 ```
 
 ## Run example
