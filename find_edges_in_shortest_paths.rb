@@ -46,11 +46,9 @@ def find_answer(n, edges)
 
   d = source_dist[n-1]
   # let's consider edges as a complement of oncoming paths
-  edges.each_with_object([]) do |(a, b, w), ans|
-    ans << (
-      source_dist.fetch(a, INF) + w + target_dist.fetch(b, INF) == d ||
-      source_dist.fetch(b, INF) + w + target_dist.fetch(a, INF) == d
-    )
+  edges.map do |a, b, w|
+    source_dist.fetch(a, INF) + w + target_dist.fetch(b, INF) == d ||
+    source_dist.fetch(b, INF) + w + target_dist.fetch(a, INF) == d
   end 
 end
 
