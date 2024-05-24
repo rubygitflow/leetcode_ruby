@@ -3,6 +3,7 @@ Solving algorithmic problems on leetcode.com
 
 - [1. Two Sum](https://leetcode.com/problems/two-sum/) >>> [two_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/two_sum.rb)
 - [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) >>> [linked_list_cycle.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/linked_list_cycle.rb)
+- [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 - [15. 3Sum](https://leetcode.com/problems/3sum/) >>> [three_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/three_sum.rb)
 - [18. 4Sum](https://leetcode.com/problems/4sum/) >>> [four_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/four_sum.rb)
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
@@ -54,7 +55,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/matching_strings_up_to_letter_permutation.rb)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/maximum_length_of_semi_decreasing_subarrays.rb)
 
-**Tasks: 48(2)  >>> Files: 43**
+**Tasks: 49(2)  >>> Files: 44**
 
 ## Install
 ```shell
