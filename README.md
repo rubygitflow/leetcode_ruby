@@ -45,6 +45,7 @@ Solving algorithmic problems on leetcode.com
 - [1723. Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/) >>> [find_minimum_time_to_finish_all_jobs.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/find_minimum_time_to_finish_all_jobs.rb)
 - [1736. Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/) >>> [latest_time_by_replacing_hidden_digits.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/latest_time_by_replacing_hidden_digits.rb)
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/concatenation_of_array.rb)
+- [2006. Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) >>> [count_number_of_pairs_with_absolute_difference_k.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/count_number_of_pairs_with_absolute_difference_k.rb)
 - [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) >>> [time_needed_to_buy.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/time_needed_to_buy.rb)
 - [2186. Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [2273. Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
@@ -63,7 +64,7 @@ Solving algorithmic problems on leetcode.com
 - a list of strings of a given length from the dict_array dictionary >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 - dict_array, filtered by the length of the string with unique values >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 
-**Tasks: 55(+4)  >>> Files: 45**
+**Tasks: 56(+4)  >>> Files: 46**
 
 ## Install
 ```shell
