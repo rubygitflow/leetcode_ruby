@@ -14,6 +14,7 @@ Solving algorithmic problems on leetcode.com
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) >>> [sliding_window_median.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/sliding_window_median.rb)
 - [704. Binary Search](https://leetcode.com/problems/binary-search/) >>> [binary_search.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/binary_search.rb)
+- [760. Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [870. Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) >>> [advantage_shuffle.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/advantage_shuffle.rb)
 - [949. Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) >>> [largest_time_for_given_digits.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/largest_time_for_given_digits.rb)
 - [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) >>> [squares_sorted_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/squares_sorted_array.rb)
@@ -26,6 +27,7 @@ Solving algorithmic problems on leetcode.com
 - [1189. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) >>> [maximum_number_of_balloons.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/maximum_number_of_balloons.rb)
 - [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) >>> [critical_connections_in_a_network.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/critical_connections_in_a_network.rb)
 - [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) >>> [minimum_time_visiting_all_points.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_time_visiting_all_points.rb)
+- [1347. Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [1375. Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) >>> [number_of_times_binary_string.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/number_of_times_binary_string.rb)
 - [1376. Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) >>> [time_needed_to_inform.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/time_needed_to_inform.rb)
 - [1443. Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/) >>> [collect_all_apples_in_tree.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/collect_all_apples_in_tree.rb)
@@ -60,7 +62,7 @@ Solving algorithmic problems on leetcode.com
 - a list of strings of a given length from the dict_array dictionary >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 - dict_array, filtered by the length of the string with unique values >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 
-**Tasks: 52(+4)  >>> Files: 45**
+**Tasks: 54(+4)  >>> Files: 45**
 
 ## Install
 ```shell

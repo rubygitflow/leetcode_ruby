@@ -203,3 +203,23 @@ p min_steps("n👩ght🌄Прога", "t👩ghn🐃Прога")
 # Output: 1
 p min_steps("leetcode", "practic")
 # Output: nil
+
+
+##################
+# https://leetcode.com/problems/find-anagram-mappings/description/
+# 760. Find Anagram Mappings
+
+def anagram_mappings(nums1, nums2)
+  b = {}
+  nums2.each_with_index { | elem, i| b[elem] = i }
+  nums1.map { |elem| b[elem] }
+end
+
+puts "Find Anagram Mappings"
+p anagram_mappings([12,28,46,32,50], [50,12,32,46,28])
+# Output: [1,4,3,2,0]
+p anagram_mappings([84,46], [84,46])
+# Output: [0,1]
+p anagram_mappings([12,28,46,32,50,28], [50,12,32,28,46,28])
+# If there are multiple answers, return any of them.
+# Output: [1, 5, 4, 2, 0, 5] or [1, 3, 4, 2, 0, 3]
