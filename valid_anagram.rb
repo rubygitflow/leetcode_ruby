@@ -223,3 +223,26 @@ p anagram_mappings([84,46], [84,46])
 p anagram_mappings([12,28,46,32,50,28], [50,12,32,28,46,28])
 # If there are multiple answers, return any of them.
 # Output: [1, 5, 4, 2, 0, 5] or [1, 3, 4, 2, 0, 3] or [1, 5, 4, 2, 0, 3] or [1, 3, 4, 2, 0, 5]
+
+
+##################
+# https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
+# 438. Find All Anagrams in a String
+
+# @param {String} s
+# @param {String} p
+# @return {Integer[]}
+def find_anagrams(s, p)
+  b = anagrammable(p)
+  win_size = p.size
+  output = []
+  (0..s.size - win_size).select do |i|
+    anagrammable(s[i,win_size]) == b
+  end
+end
+
+puts "Find All Anagrams in a String"
+p find_anagrams("cbaebabacd", "abc")
+# Output: [0,6]
+p find_anagrams("abab", "ab")
+# Output: [0,1,2]

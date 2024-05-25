@@ -12,6 +12,7 @@ Solving algorithmic problems on leetcode.com
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/two_sum.rb)
 - [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) >>> [sliding_window_median.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/sliding_window_median.rb)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
+- [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) >>> [sliding_window_median.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/sliding_window_median.rb)
 - [704. Binary Search](https://leetcode.com/problems/binary-search/) >>> [binary_search.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/binary_search.rb)
 - [760. Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
@@ -62,7 +63,7 @@ Solving algorithmic problems on leetcode.com
 - a list of strings of a given length from the dict_array dictionary >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 - dict_array, filtered by the length of the string with unique values >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 
-**Tasks: 54(+4)  >>> Files: 45**
+**Tasks: 55(+4)  >>> Files: 45**
 
 ## Install
 ```shell
