@@ -24,19 +24,21 @@ end
 
 # @param {String} s
 # @return {Hash}
-def anagrammable(s)
-  hash = Hash.new { |h,k| h[k] = 0 }
-  s.each_char {|letter| hash[letter] += 1 }
-  hash
+def anagrammable(s, case_sensitive = true)
+  # hash = Hash.new { |h,k| h[k] = 0 }
+  # (case_sensitive ? s : s.downcase ).each_char {|letter|  hash[letter] += 1 }
+  # hash
+  (case_sensitive ? s : s.downcase ).each_char.tally
 end
 
-def is_anagram_ex(s, t)
+def is_anagram_ex(s, t, case_sensitive = true)
   # Time complexity: O(s)+O(t)
   # Space complexity: O(s)+O(t)
-  anagrammable(s) == anagrammable(t)
+  anagrammable(s, case_sensitive) == anagrammable(t, case_sensitive)
 end
 
 puts "Valid Anagram"
+puts "is_anagram"
 p is_anagram('ana👩ram', 'na👩aram')
 # Output: true
 p is_anagram('anagram', 'nagaram')
@@ -45,8 +47,11 @@ p is_anagram('anagram', 'nagram')
 # Output: false
 p is_anagram('rat', 'car')
 # Output: false
+# Case sensitive!!!
+p is_anagram('anagram', 'naGaram')
+# Output: false
 
-
+puts "is_anagram_ex"
 p is_anagram_ex('ana👩ram', 'na👩aram')
 # Output: true
 p is_anagram_ex('anagram', 'nagaram')
@@ -55,6 +60,12 @@ p is_anagram_ex('anagram', 'nagram')
 # Output: false
 p is_anagram_ex('rat', 'car')
 # Output: false
+# Case sensitive!!!
+p is_anagram_ex('anagram', 'naGaram')
+# Output: false
+# Case insensitive!!!
+p is_anagram_ex('anagram', 'naGaram', false)
+# Output: true
 
 ##################
 # https://leetcode.com/problems/group-anagrams/description/
@@ -134,3 +145,26 @@ p remove_anagrams(nil)
 # Output: []
 p remove_anagrams([])
 # Output: []
+
+
+##################
+# https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/description/
+# 2186. Minimum Number of Steps to Make Two Strings Anagram II
+
+# @param {String} s
+# @param {String} t
+# @return {Integer}
+def min_steps(s, t)
+  a, b = anagrammable(s), anagrammable(t)
+  (a.keys - b.keys + b.keys).reduce(0) do
+    _1 + ((a[_2] || 0) - (b[_2] || 0)).abs
+  end
+end
+
+puts "Minimum Number of Steps to Make Two Strings Anagram II"
+p min_steps("leetcode", "coats")
+# Output: 7
+p min_steps("night", "thing")
+# Output: 0
+p min_steps("n👩ght🌄Прога", "Парго🐃th👩ng")
+# Output: 2
