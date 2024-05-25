@@ -44,6 +44,7 @@ Solving algorithmic problems on leetcode.com
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/concatenation_of_array.rb)
 - [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) >>> [time_needed_to_buy.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/time_needed_to_buy.rb)
 - [2380. Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/) >>> [time_needed_to_rearrange.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/time_needed_to_rearrange.rb)
+- [2609. Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/) >>> [find_the_longest_balanced_substring_of_a_binary_string.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/find_the_longest_balanced_substring_of_a_binary_string.rb)
 - [2727. Is Object Empty](https://leetcode.com/problems/is-object-empty/) >>> [is_object_empty.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/is_object_empty.rb)
 - [2863. Maximum Length of Semi-Decreasing Subarrays](https://leetcode.com/problems/maximum-length-of-semi-decreasing-subarrays/) >>> [maximum_length_of_semi_decreasing_subarrays.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/maximum_length_of_semi_decreasing_subarrays.rb)
 - [2976. Minimum Cost to Convert String I](https://leetcode.com/problems/minimum-cost-to-convert-string-i/) >>> [minimum_cost_to_convert_string.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_cost_to_convert_string.rb)
@@ -57,7 +58,7 @@ Solving algorithmic problems on leetcode.com
 - a list of strings of a given length from the dict_array dictionary >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 - dict_array, filtered by the length of the string with unique values >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 
-**Tasks: 49(4)  >>> Files: 44**
+**Tasks: 50(4)  >>> Files: 45**
 
 ## Install
 ```shell
