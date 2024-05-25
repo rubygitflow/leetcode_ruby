@@ -55,8 +55,9 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/matching_strings_up_to_letter_permutation.rb)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/maximum_length_of_semi_decreasing_subarrays.rb)
 - a list of strings of a given length from the dict_array dictionary >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
+- dict_array, filtered by the length of the string with unique values >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 
-**Tasks: 49(3)  >>> Files: 44**
+**Tasks: 49(4)  >>> Files: 44**
 
 ## Install
 ```shell
