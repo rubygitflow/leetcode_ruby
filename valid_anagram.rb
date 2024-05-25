@@ -154,17 +154,52 @@ p remove_anagrams([])
 # @param {String} s
 # @param {String} t
 # @return {Integer}
-def min_steps(s, t)
+def min_steps_ii(s, t)
   a, b = anagrammable(s), anagrammable(t)
   (a.keys - b.keys + b.keys).reduce(0) do
+    # _1 - accumulator ;  _2 - key
     _1 + ((a[_2] || 0) - (b[_2] || 0)).abs
   end
 end
 
 puts "Minimum Number of Steps to Make Two Strings Anagram II"
-p min_steps("leetcode", "coats")
+p min_steps_ii("leetcode", "coats")
 # Output: 7
-p min_steps("night", "thing")
+p min_steps_ii("night", "thing")
 # Output: 0
-p min_steps("n👩ght🌄Прога", "Парго🐃th👩ng")
+p min_steps_ii("n👩ght🌄Прога", "Парго🐃th👩ng")
 # Output: 2
+
+##################
+# https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/description/
+# 1347. Minimum Number of Steps to Make Two Strings Anagram
+
+# @param {String} s
+# @param {String} t
+# @return {Integer}
+def min_steps(s, t)
+  return if s.size != t.size
+
+  a, b = anagrammable(s), anagrammable(t)
+  b.keys.reduce(0) do
+    # _1 - accumulator ;  _2 - key
+    _1 +  if a.key?(_2)
+            difference = b[_2] - a[_2]
+            difference.positive? ? difference : 0
+          else
+            b[_2]
+          end
+  end
+end
+
+puts "Minimum Number of Steps to Make Two Strings Anagram"
+p min_steps("bab", "aba")
+# Output: 1
+p min_steps("leetcode", "practice")
+# Output: 5
+p min_steps("anagram", "mangaar")
+# Output: 0
+p min_steps("n👩ght🌄Прога", "t👩ghn🐃Прога")
+# Output: 1
+p min_steps("leetcode", "practic")
+# Output: nil
