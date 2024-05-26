@@ -44,3 +44,21 @@ p search([4,5,6,7,0,1,2], 3)
 # Output: -1
 p search([1], 0)
 # Output: -1
+
+########################
+# https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
+# 81. Search in Rotated Sorted Array II
+
+# @param {Integer[]} nums
+# @param {Integer} target
+# @return {Boolean}
+def search_ii(nums, target)
+  # nums.include?(target)     ;)
+
+  search(nums, target) > -1
+end
+
+p search_ii([2,5,6,0,0,1,2], 0)
+# Output: true
+p search_ii([2,5,6,0,0,1,2], 3)
+# Output: false
