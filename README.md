@@ -9,6 +9,7 @@ Solving algorithmic problems on leetcode.com
 - [15. 3Sum](https://leetcode.com/problems/3sum/) >>> [three_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/three_sum.rb)
 - [18. 4Sum](https://leetcode.com/problems/4sum/) >>> [four_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/four_sum.rb)
 - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) >>> [merging_k_sorted_lists.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/merging_k_sorted_lists.rb)
+- [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) >>> [search_in_rotated_sorted_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/search_in_rotated_sorted_array.rb)
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) >>> [binary_search.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/binary_search.rb)
 - [146. LRU Cache](https://leetcode.com/problems/lru-cache/) >>> [lru_cache.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/lru_cache.rb)
@@ -68,7 +69,7 @@ Solving algorithmic problems on leetcode.com
 - a list of strings of a given length from the dict_array dictionary >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 - dict_array, filtered by the length of the string with unique values >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 
-**Tasks: 60(+4)  >>> Files: 50**
+**Tasks: 61(+4)  >>> Files: 51**
 
 ## Install
 ```shell
