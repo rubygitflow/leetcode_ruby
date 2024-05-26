@@ -38,6 +38,7 @@ def search(nums, target)
   result
 end
 
+puts "Search in Rotated Sorted Array"
 p search([4,5,6,7,0,1,2], 0)
 # Output: 4
 p search([4,5,6,7,0,1,2], 3)
@@ -58,6 +59,7 @@ def search_ii(nums, target)
   search(nums, target) > -1
 end
 
+puts "Search in Rotated Sorted Array II"
 p search_ii([2,5,6,0,0,1,2], 0)
 # Output: true
 p search_ii([2,5,6,0,0,1,2], 3)
@@ -91,6 +93,7 @@ def find_min(nums)
   output
 end
 
+puts "Find Minimum in Rotated Sorted Array"
 p find_min([3,4,5,1,2])
 # Output: 1
 p find_min([4,5,6,7,0,1,2])
@@ -99,3 +102,45 @@ p find_min([11,13,15,17])
 # Output: 11
 p find_min([11])
 # Output: 11
+
+
+########################
+# Find Maximum in Rotated Sorted Array
+
+# @param {Integer[]} nums
+# @return {Integer}
+def find_max(nums)
+  return nil if nums&.empty? || nums.nil?
+
+  # nums.max  #   ;)
+
+  return nums.last if nums.size == 1 || nums.first < nums.last
+
+  l, r = 0, nums.size - 1
+  border = nums.first
+  output = border
+  while l <= r
+    mid = (l + r) / 2
+    if nums[mid] < border
+      l = mid + 1
+    else
+      r = mid - 1
+      output = [output, nums[mid]].max
+    end
+  end
+  output
+end
+
+puts "Find Maximum in Rotated Sorted Array"
+p find_max([3,4,5,1,2])
+# Output: 5
+p find_max([4,5,6,7,0,1,2])
+# Output: 7
+p find_max([11,13,15,17])
+# Output: 17
+p find_max([11])
+# Output: 11
+p find_max([])
+# Output: nil
+p find_max(nil)
+# Output: nil

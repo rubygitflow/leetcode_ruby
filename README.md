@@ -70,8 +70,9 @@ Solving algorithmic problems on leetcode.com
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/maximum_length_of_semi_decreasing_subarrays.rb)
 - a list of strings of a given length from the dict_array dictionary >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 - dict_array, filtered by the length of the string with unique values >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
+- [Find Maximum in Rotated Sorted Array] >>> [search_in_rotated_sorted_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/search_in_rotated_sorted_array.rb)
 
-**Tasks: 63(+4)  >>> Files: 51**
+**Tasks: 63(+5)  >>> Files: 51**
 
 ## Install
 ```shell
