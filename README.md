@@ -62,6 +62,7 @@ Solving algorithmic problems on leetcode.com
 - [2186. Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [2273. Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [2380. Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/) >>> [time_needed_to_rearrange.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/time_needed_to_rearrange.rb)
+- [2412. Minimum Money Required Before Transactions](https://leetcode.com/problems/minimum-money-required-before-transactions/) >>> [minimum_money_required_before_transactions.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_money_required_before_transactions.rb)
 - [2413. Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) >>> [smallest_even_multiple.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/smallest_even_multiple.rb)
 - [2544. Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) >>> [alternating_digit_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/alternating_digit_sum.rb)
 - [2609. Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/) >>> [find_the_longest_balanced_substring_of_a_binary_string.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/find_the_longest_balanced_substring_of_a_binary_string.rb)
@@ -79,7 +80,7 @@ Solving algorithmic problems on leetcode.com
 - dict_array, filtered by the length of the string with unique values >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 - [Find Maximum in Rotated Sorted Array] >>> [search_in_rotated_sorted_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/search_in_rotated_sorted_array.rb)
 
-**Tasks: 70(+5)  >>> Files: 56**
+**Tasks: 71(+5)  >>> Files: 57**
 
 ## Install
 ```shell

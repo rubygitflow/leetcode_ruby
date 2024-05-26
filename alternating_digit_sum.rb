@@ -5,6 +5,7 @@
 # @return {Integer}
 def alternate_digit_sum(n)
   pos = -1
+  # n.to_s.chars.reduce(0) {|res,n| pos *= -1; res + n.to_i * pos }
   n.digits.reverse.reduce(0) {|res,n| pos *= -1; res + n * pos }
 end
 
