@@ -63,6 +63,7 @@ def find_median_sorted_arrays(nums1, nums2)
   end
 end
 
+puts "find_median_sorted_arrays_sort"
 p find_median_sorted_arrays_sort([1,3], [2])
 # Output: 2.0
 p find_median_sorted_arrays_sort([1,2], [3,4])
@@ -80,6 +81,7 @@ p find_median_sorted_arrays_sort([], [0, 3, 4, 5, 6])
 p find_median_sorted_arrays_sort([], [])
 # Output: nil
 
+puts "find_median_sorted_arrays"
 p find_median_sorted_arrays([1,3], [2])
 # Output: 2.00000
 p find_median_sorted_arrays([1,2], [3,4])
