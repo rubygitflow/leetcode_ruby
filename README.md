@@ -54,6 +54,7 @@ Solving algorithmic problems on leetcode.com
 - [1702. Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/) >>> [maximum_binary_string_after_change.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/maximum_binary_string_after_change.rb)
 - [1723. Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/) >>> [find_minimum_time_to_finish_all_jobs.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/find_minimum_time_to_finish_all_jobs.rb)
 - [1736. Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/) >>> [latest_time_by_replacing_hidden_digits.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/latest_time_by_replacing_hidden_digits.rb)
+- [1870. Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/) >>> [minimum_speed_to_arrive_on_time.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_speed_to_arrive_on_time.rb)
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/concatenation_of_array.rb)
 - [1977. Number of Ways to Separate Numbers](https://leetcode.com/problems/number-of-ways-to-separate-numbers/) >>> [number_ways_to_separate_numbers.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/number_ways_to_separate_numbers.rb)
 - [2006. Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) >>> [count_number_of_pairs_with_absolute_difference_k.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/count_number_of_pairs_with_absolute_difference_k.rb)
@@ -76,7 +77,7 @@ Solving algorithmic problems on leetcode.com
 - dict_array, filtered by the length of the string with unique values >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 - [Find Maximum in Rotated Sorted Array] >>> [search_in_rotated_sorted_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/search_in_rotated_sorted_array.rb)
 
-**Tasks: 67(+5)  >>> Files: 53**
+**Tasks: 68(+5)  >>> Files: 54**
 
 ## Install
 ```shell
