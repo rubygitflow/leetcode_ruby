@@ -22,6 +22,7 @@ Solving algorithmic problems on leetcode.com
 - [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) >>> [sliding_window_median.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/sliding_window_median.rb)
 - [532. K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) >>> [count_number_of_pairs_with_absolute_difference_k.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/count_number_of_pairs_with_absolute_difference_k.rb)
+- [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) >>> [top_k_frequent_words.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/top_k_frequent_words.rb)
 - [704. Binary Search](https://leetcode.com/problems/binary-search/) >>> [binary_search.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/binary_search.rb)
 - [760. Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [870. Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) >>> [advantage_shuffle.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/advantage_shuffle.rb)
@@ -74,7 +75,7 @@ Solving algorithmic problems on leetcode.com
 - dict_array, filtered by the length of the string with unique values >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 - [Find Maximum in Rotated Sorted Array] >>> [search_in_rotated_sorted_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/search_in_rotated_sorted_array.rb)
 
-**Tasks: 65(+5)  >>> Files: 52**
+**Tasks: 66(+5)  >>> Files: 53**
 
 ## Install
 ```shell
