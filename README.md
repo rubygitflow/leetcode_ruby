@@ -18,6 +18,7 @@ Solving algorithmic problems on leetcode.com
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/two_sum.rb)
 - [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) >>> [sliding_window_median.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/sliding_window_median.rb)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
+- [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) >>> [top_k_frequent_words.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/top_k_frequent_words.rb)
 - [365. Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) >>> [water_and_jug_problem.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/water_and_jug_problem.rb)
 - [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) >>> [sliding_window_median.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/sliding_window_median.rb)
@@ -75,7 +76,7 @@ Solving algorithmic problems on leetcode.com
 - dict_array, filtered by the length of the string with unique values >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 - [Find Maximum in Rotated Sorted Array] >>> [search_in_rotated_sorted_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/search_in_rotated_sorted_array.rb)
 
-**Tasks: 66(+5)  >>> Files: 53**
+**Tasks: 67(+5)  >>> Files: 53**
 
 ## Install
 ```shell
