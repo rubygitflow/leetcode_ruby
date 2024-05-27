@@ -6,6 +6,7 @@ Solving algorithmic problems on leetcode.com
 - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 - [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) >>> [median_of_two_sorted_arrays.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/median_of_two_sorted_arrays.rb)
 - [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) >>> [longest_palindromic_substring.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_palindromic_substring.rb)
+- [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) >>> [reverse_integer.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/reverse_integer.rb)
 - [15. 3Sum](https://leetcode.com/problems/3sum/) >>> [three_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/three_sum.rb)
 - [18. 4Sum](https://leetcode.com/problems/4sum/) >>> [four_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/four_sum.rb)
 - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) >>> [merging_k_sorted_lists.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/merging_k_sorted_lists.rb)
@@ -80,7 +81,7 @@ Solving algorithmic problems on leetcode.com
 - dict_array, filtered by the length of the string with unique values >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 - [Find Maximum in Rotated Sorted Array] >>> [search_in_rotated_sorted_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/search_in_rotated_sorted_array.rb)
 
-**Tasks: 71(+5)  >>> Files: 57**
+**Tasks: 72(+5)  >>> Files: 58**
 
 ## Install
 ```shell
