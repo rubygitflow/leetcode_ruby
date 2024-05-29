@@ -75,13 +75,14 @@ Solving algorithmic problems on leetcode.com
 - [3123. Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/) >>> [find_edges_in_shortest_paths.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/find_edges_in_shortest_paths.rb)
 
 ## Addition
-- Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/matching_strings_up_to_letter_permutation.rb)
-- Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/maximum_length_of_semi_decreasing_subarrays.rb)
-- a list of strings of a given length from the dict_array dictionary >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
-- dict_array, filtered by the length of the string with unique values >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
+- [Matching strings up to letter permutation] >>> [matching_strings_up_to_letter_permutation.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/matching_strings_up_to_letter_permutation.rb)
+- [Maximum Length of Semi-Increasing Subarrays] >>> [maximum_length_of_semi_decreasing_subarrays.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/maximum_length_of_semi_decreasing_subarrays.rb)
+- [a list of strings of a given length from the dict_array dictionary] >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
+- [dict_array, filtered by the length of the string with unique values] >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 - [Find Maximum in Rotated Sorted Array] >>> [search_in_rotated_sorted_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/search_in_rotated_sorted_array.rb)
+- [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
 
-**Tasks: 72(+5)  >>> Files: 58**
+**Tasks: 72(+6)  >>> Files: 59**
 
 ## Install
 ```shell
