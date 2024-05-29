@@ -81,8 +81,9 @@ Solving algorithmic problems on leetcode.com
 - [dict_array, filtered by the length of the string with unique values] >>> [longest_substring_without_repeating_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_substring_without_repeating_characters.rb)
 - [Find Maximum in Rotated Sorted Array] >>> [search_in_rotated_sorted_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/search_in_rotated_sorted_array.rb)
 - [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
+- [How to transform a hash/dictionary/map] >>> [how_to_transform_dictionary.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/how_to_transform_dictionary.rb)
 
-**Tasks: 72(+6)  >>> Files: 59**
+**Tasks: 72(+7)  >>> Files: 60**
 
 ## Install
 ```shell
