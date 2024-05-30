@@ -38,6 +38,7 @@ Solving algorithmic problems on leetcode.com
 - [1109. Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) >>> [corporate_flight_bookings.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/corporate_flight_bookings.rb)
 - [1189. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) >>> [maximum_number_of_balloons.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/maximum_number_of_balloons.rb)
 - [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) >>> [critical_connections_in_a_network.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/critical_connections_in_a_network.rb)
+- [1243. Array Transformation](https://leetcode.com/problems/array-transformation/) >>> [array_transformation.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/array_transformation.rb)
 - [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) >>> [minimum_time_visiting_all_points.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_time_visiting_all_points.rb)
 - [1347. Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [1375. Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) >>> [number_of_times_binary_string.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/number_of_times_binary_string.rb)
@@ -83,7 +84,7 @@ Solving algorithmic problems on leetcode.com
 - [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
 - [How to transform a hash/dictionary/map] >>> [how_to_transform_dictionary.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/how_to_transform_dictionary.rb)
 
-**Tasks: 72(+7)  >>> Files: 60**
+**Tasks: 73(+7)  >>> Files: 61**
 
 ## Install
 ```shell
