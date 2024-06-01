@@ -68,6 +68,7 @@ Solving algorithmic problems on leetcode.com
 - [2413. Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) >>> [smallest_even_multiple.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/smallest_even_multiple.rb)
 - [2544. Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) >>> [alternating_digit_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/alternating_digit_sum.rb)
 - [2609. Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/) >>> [find_the_longest_balanced_substring_of_a_binary_string.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/find_the_longest_balanced_substring_of_a_binary_string.rb)
+- [2626. Array Reduce Transformation ](https://leetcode.com/problems/array-reduce-transformation/) >>> [groupby_filter_map_reduce.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/groupby_filter_map_reduce.rb)
 - [2631. Group By](https://leetcode.com/problems/group-by/) >>> [groupby_filter_map_reduce.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/groupby_filter_map_reduce.rb)
 - [2634. Filter Elements from Array](https://leetcode.com/problems/filter-elements-from-array/) >>> [groupby_filter_map_reduce.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/groupby_filter_map_reduce.rb)
 - [2635. Apply Transform Over Each Element in Array](https://leetcode.com/problems/apply-transform-over-each-element-in-array/) >>> [groupby_filter_map_reduce.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/groupby_filter_map_reduce.rb)
@@ -87,7 +88,7 @@ Solving algorithmic problems on leetcode.com
 - [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
 - [How to transform a hash/dictionary/map] >>> [how_to_transform_dictionary.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/how_to_transform_dictionary.rb)
 
-**Tasks: 76(+7)  >>> Files: 62**
+**Tasks: 77(+7)  >>> Files: 62**
 
 ## Install
 ```shell

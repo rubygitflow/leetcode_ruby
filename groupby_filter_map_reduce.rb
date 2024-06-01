@@ -271,3 +271,96 @@ pp [1,2,3].map(&Proc.new{ |n, i| n + i } )
 pp [1,2,3].map(&Proc.new{ 42 } )
 # Output:
 # [42,42,42]
+
+
+#######################
+# https://leetcode.com/problems/array-reduce-transformation/description/
+# 2626. Array Reduce Transformation
+
+# Please solve it without Enumerable.reduce, Enumerable.inject, Enumerable.each_with_object methods.
+# https://ruby-doc.org/3.3.0/Enumerable.html#method-i-reduce
+# https://ruby-doc.org/3.3.0/Enumerable.html#method-i-inject
+# https://ruby-doc.org/3.3.0/Enumerable.html#method-i-each_with_object
+# Look at https://docs.ruby-lang.org/en/master/Proc.html
+
+# Example 1:
+# Input:
+# nums = [1,2,3,4]
+# fn = function sum(accum, curr) { return accum + curr; }
+# init = 0
+# Output: 10
+# Explanation:
+# initially, the value is init=0.
+# (0) + nums[0] = 1
+# (1) + nums[1] = 3
+# (3) + nums[2] = 6
+# (6) + nums[3] = 10
+# The final answer is 10.
+
+# Example 2:
+# Input:
+# nums = [1,2,3,4]
+# fn = function sum(accum, curr) { return accum + curr * curr; }
+# init = 100
+# Output: 130
+# Explanation:
+# initially, the value is init=100.
+# (100) + nums[0] * nums[0] = 101
+# (101) + nums[1] * nums[1] = 105
+# (105) + nums[2] * nums[2] = 114
+# (114) + nums[3] * nums[3] = 130
+# The final answer is 130.
+
+# Example 3:
+# Input:
+# nums = []
+# fn = function sum(accum, curr) { return 0; }
+# init = 25
+# Output: 25
+# Explanation: For empty arrays, the answer is always init.
+
+class Array
+# module Enumerable
+  # @param {Proc} fn
+  # @return {Array}
+  # def reduce(init = 0, &fn)
+  #   return init unless block_given?
+
+  #   accum = init
+  #   each { |elem| accum = fn.call(accum, elem) }
+  #   accum
+  # end
+  def reduce(init = 0)
+    return init unless block_given?
+
+    accum = init
+    each { |elem| accum = yield(accum, elem) }
+    accum
+  end
+end
+
+puts "Array Reduce Transformation"
+pp [1,2,3,4].reduce(20)
+# Output:
+# 20
+pp [1,2,3,4].reduce(0, &Proc.new{ |accum, n| accum + n })
+# Output:
+# 10
+pp [1,2,3,4].reduce(0) { |accum, n| accum + n }
+# Output:
+# 10
+pp [1,2,3,4].reduce(0, &-> (accum, n) { accum + n })
+# Output:
+# 10
+pp [1,2,3,4].reduce(100, &-> (accum, n) { accum + n * n })
+# Output:
+# 130
+pp [].reduce(25, &-> (accum, n) { 0 })
+# Output:
+# 25
+pp [1,2].reduce(25, &-> (accum, n) { 0 })
+# Output:
+# 0
+pp [1,2].reduce(25, &-> (accum, n) { n })
+# Output:
+# 2
