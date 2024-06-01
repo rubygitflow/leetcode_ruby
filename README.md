@@ -70,6 +70,7 @@ Solving algorithmic problems on leetcode.com
 - [2609. Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/) >>> [find_the_longest_balanced_substring_of_a_binary_string.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/find_the_longest_balanced_substring_of_a_binary_string.rb)
 - [2631. Group By](https://leetcode.com/problems/group-by/) >>> [groupby_filter_map_reduce.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/groupby_filter_map_reduce.rb)
 - [2634. Filter Elements from Array](https://leetcode.com/problems/filter-elements-from-array/) >>> [groupby_filter_map_reduce.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/groupby_filter_map_reduce.rb)
+- [2635. Apply Transform Over Each Element in Array](https://leetcode.com/problems/apply-transform-over-each-element-in-array/) >>> [groupby_filter_map_reduce.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/groupby_filter_map_reduce.rb)
 - [2727. Is Object Empty](https://leetcode.com/problems/is-object-empty/) >>> [is_object_empty.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/is_object_empty.rb)
 - [2863. Maximum Length of Semi-Decreasing Subarrays](https://leetcode.com/problems/maximum-length-of-semi-decreasing-subarrays/) >>> [maximum_length_of_semi_decreasing_subarrays.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/maximum_length_of_semi_decreasing_subarrays.rb)
 - [2976. Minimum Cost to Convert String I](https://leetcode.com/problems/minimum-cost-to-convert-string-i/) >>> [minimum_cost_to_convert_string.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_cost_to_convert_string.rb)
@@ -86,7 +87,7 @@ Solving algorithmic problems on leetcode.com
 - [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
 - [How to transform a hash/dictionary/map] >>> [how_to_transform_dictionary.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/how_to_transform_dictionary.rb)
 
-**Tasks: 75(+7)  >>> Files: 62**
+**Tasks: 76(+7)  >>> Files: 62**
 
 ## Install
 ```shell

@@ -210,3 +210,64 @@ pp [1,2,3].filter(&Proc.new{ |n, i| i == 0 } )
 pp [-2,-1,0,1,2].filter(&Proc.new{ |n| n + 1 != 0 } )
 # Output:
 # [-2,0,1,2]
+
+
+#######################
+# https://leetcode.com/problems/apply-transform-over-each-element-in-array/description/
+# 2635. Apply Transform Over Each Element in Array
+
+# Please solve it without .map method.
+# https://ruby-doc.org/3.3.0/Array.html#method-i-map
+# https://ruby-doc.org/3.3.0/Enumerable.html#method-i-map
+# Look at https://docs.ruby-lang.org/en/master/Proc.html
+
+# Example 1:
+# Input: arr = [1,2,3], fn = function plusone(n) { return n + 1; }
+# Output: [2,3,4]
+# Explanation:
+# const newArray = map(arr, plusone); // [2,3,4]
+# The function increases each value in the array by one.
+
+# Example 2:
+# Input: arr = [1,2,3], fn = function plusI(n, i) { return n + i; }
+# Output: [1,3,5]
+# Explanation: The function increases each value by the index it resides in.
+
+# Example 3:
+# Input: arr = [10,20,30], fn = function constant() { return 42; }
+# Output: [42,42,42]
+# Explanation: The function always returns 42.
+
+class Array
+# module Enumerable
+  # @param {Proc} fn
+  # @return {Array}
+  # def map(&fn)
+  #   return [] unless block_given?
+
+  #   each_with_object([]).with_index do |(elem, res), i|
+  #     res << fn.call(elem, i)
+  #   end
+  # end
+  def map
+    return [] unless block_given?
+
+    each_with_object([]).with_index do |(elem, res), i|
+      res << yield(elem, i)
+    end
+  end
+end
+
+puts "Apply Transform Over Each Element in Array"
+pp [1,2,3].map
+# Output:
+# []
+pp [1,2,3].map(&Proc.new{ |n| n + 1 } )
+# Output:
+# [2,3,4]
+pp [1,2,3].map(&Proc.new{ |n, i| n + i } )
+# Output:
+# [1,3,5]
+pp [1,2,3].map(&Proc.new{ 42 } )
+# Output:
+# [42,42,42]
