@@ -5,7 +5,8 @@
 # @param {Integer} goal
 # @return {Integer}
 def min_bit_flips(start, goal)
-  (start ^ goal).to_s(2).split("").map(&:to_i).sum
+  # (start ^ goal).to_s(2).split("").map(&:to_i).sum
+  (start ^ goal).to_s(2).count('1')
 end
 
 p min_bit_flips(10, 7)
