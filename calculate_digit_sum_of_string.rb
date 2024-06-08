@@ -34,11 +34,15 @@ def digit_sum_ii(s, k)
   s
 end
 
+p digit_sum("11111222229", 3)
+# Output: "132"
 p digit_sum("11111222223", 3)
 # Output: "135"
 p digit_sum("00000000", 3)
 # Output: "000"
 
+p digit_sum_ii("11111222229", 3)
+# Output: "132"
 p digit_sum_ii("11111222223", 3)
 # Output: "135"
 p digit_sum_ii("00000000", 3)
