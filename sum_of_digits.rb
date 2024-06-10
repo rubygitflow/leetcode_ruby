@@ -13,7 +13,7 @@ end
 
 p get_lucky("iiii", 1)
 # Output: 36
-p get_lucky("zbax", 2)
-# Output: 8
 p get_lucky("leetcode", 2)
 # Output: 6
+p get_lucky("zbax", 2)
+# Output: 8
