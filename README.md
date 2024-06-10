@@ -58,6 +58,7 @@ Solving algorithmic problems on leetcode.com
 - [1736. Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/) >>> [latest_time_by_replacing_hidden_digits.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/latest_time_by_replacing_hidden_digits.rb)
 - [1870. Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/) >>> [minimum_speed_to_arrive_on_time.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_speed_to_arrive_on_time.rb)
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/concatenation_of_array.rb)
+- [1945. Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) >>> [sum_of_digits.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/sum_of_digits.rb)
 - [1977. Number of Ways to Separate Numbers](https://leetcode.com/problems/number-of-ways-to-separate-numbers/) >>> [number_ways_to_separate_numbers.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/number_ways_to_separate_numbers.rb)
 - [2006. Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) >>> [count_number_of_pairs_with_absolute_difference_k.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/count_number_of_pairs_with_absolute_difference_k.rb)
 - [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) >>> [time_needed_to_buy.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/time_needed_to_buy.rb)
@@ -96,7 +97,7 @@ Solving algorithmic problems on leetcode.com
 - [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
 - [How to transform a hash/dictionary/map] >>> [how_to_transform_dictionary.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/how_to_transform_dictionary.rb)
 
-**Tasks: 85(+7)  >>> Files: 70**
+**Tasks: 86(+7)  >>> Files: 71**
 
 ## Install
 ```shell
