@@ -18,6 +18,7 @@ def triangular_sum(nums)
   res.first
 end
 
+puts "Find Triangular Sum of an Array (recursive)"
 p triangular_sum([1,2,3,4,5])
 # Output: 8
 p triangular_sum([5])
@@ -36,7 +37,28 @@ def triangular_sum_ii(nums)
   res.first
 end
 
+puts "Find Triangular Sum of an Array (optimized)"
 p triangular_sum_ii([1,2,3,4,5])
 # Output: 8
 p triangular_sum_ii([5])
+# Output: 5
+
+# @param {Integer[]} nums
+# @return {Integer}
+def triangular_sum_iii(nums)
+  out = 0
+  len = nums.size - 1
+  mCk = 1
+  nums.each_with_index do |num, i|
+    out = (out + mCk * num) % 10
+    mCk *= len - i
+    mCk /= i + 1
+  end
+  out
+end
+
+puts "Find Triangular Sum of an Array (Pascal Triangle)"
+p triangular_sum_iii([1,2,3,4,5])
+# Output: 8
+p triangular_sum_iii([5])
 # Output: 5
