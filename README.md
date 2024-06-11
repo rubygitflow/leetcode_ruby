@@ -21,6 +21,7 @@ Solving algorithmic problems on leetcode.com
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) >>> [top_k_frequent_words.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/top_k_frequent_words.rb)
 - [365. Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) >>> [water_and_jug_problem.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/water_and_jug_problem.rb)
+- [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) >>> [first_unique_character.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/first_unique_character.rb)
 - [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) >>> [sliding_window_median.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/sliding_window_median.rb)
 - [532. K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) >>> [count_number_of_pairs_with_absolute_difference_k.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/count_number_of_pairs_with_absolute_difference_k.rb)
@@ -99,7 +100,7 @@ Solving algorithmic problems on leetcode.com
 - [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
 - [How to transform a hash/dictionary/map] >>> [how_to_transform_dictionary.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/how_to_transform_dictionary.rb)
 
-**Tasks: 88(+7)  >>> Files: 72**
+**Tasks: 89(+7)  >>> Files: 73**
 
 ## Install
 ```shell
