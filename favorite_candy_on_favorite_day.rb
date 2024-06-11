@@ -5,14 +5,12 @@
 # @param {Integer[][]} queries
 # @return {Boolean[]}
 def can_eat(candies_count, queries)
-  candies_acc=[0]
+  candies_acc = [0]
   1.upto(candies_count.size) {|i| candies_acc << (candies_acc[-1] + candies_count[i-1])}
-  out=[]
-  queries.each do |favorite_type, favorite_day, daily_cap|
-    first, last = favorite_day, (favorite_day + 1) * daily_cap
-    out << (first < candies_acc[favorite_type + 1] && candies_acc[favorite_type] < last)
+  queries.map do |favorite_type, favorite_day, daily_cap|
+    favorite_day < candies_acc[favorite_type + 1] &&
+      candies_acc[favorite_type] < (favorite_day + 1) * daily_cap
   end
-  out             
 end
 
 p can_eat([7,4,5,3,8], [[0,2,2],[4,2,4],[2,13,1000000000]])
