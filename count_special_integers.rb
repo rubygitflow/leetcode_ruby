@@ -44,6 +44,7 @@ def count_special_numbers(n)
   res
 end
 
+puts "Count Special Integers"
 p count_special_numbers(5)
 # Output: 5
 p count_special_numbers(20)
@@ -54,3 +55,23 @@ p count_special_numbers(320)
 # Output: 251
 p count_special_numbers(2 * 10 ** 9)
 # Output: 5974650
+
+
+#######################
+# https://leetcode.com/problems/count-numbers-with-unique-digits-ii/description/
+# 3032. Count Numbers With Unique Digits II
+
+# @param {Integer} a
+# @param {Integer} b
+# @return {Integer}
+def number_count(a, b)
+  count_special_numbers(b) - (a > 1 ? count_special_numbers(a-1) : 0)
+end
+
+puts "Count Numbers With Unique Digits II"
+p number_count(1, 20)
+# Output: 19
+p number_count(9, 19)
+# Output: 10
+p number_count(80, 120)
+# Output: 27
