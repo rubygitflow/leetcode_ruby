@@ -20,6 +20,7 @@ Solving algorithmic problems on leetcode.com
 - [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) >>> [sliding_window_median.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/sliding_window_median.rb)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) >>> [top_k_frequent_words.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/top_k_frequent_words.rb)
+- [357. Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) >>> [count_special_integers.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/count_special_integers.rb)
 - [365. Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) >>> [water_and_jug_problem.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/water_and_jug_problem.rb)
 - [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) >>> [first_unique_character.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/first_unique_character.rb)
 - [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
@@ -101,7 +102,7 @@ Solving algorithmic problems on leetcode.com
 - [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
 - [How to transform a hash/dictionary/map] >>> [how_to_transform_dictionary.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/how_to_transform_dictionary.rb)
 
-**Tasks: 90(+7)  >>> Files: 73**
+**Tasks: 91(+7)  >>> Files: 73**
 
 ## Install
 ```shell

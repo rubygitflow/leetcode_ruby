@@ -5,7 +5,9 @@
 # @param {Integer} n
 # @return {Integer}
 def count_special_numbers(n)
-  # Recursive function to calculate permutations A(m, n) = m! / (m-n)!
+  # Permutation function permutations(m, n)
+  # that calculates permutations of m elements taken n at a time.
+  # Recursive function to calculate permutations: permutations(m, n) = m! / (m-n)!
   def permutations(m, n)
     n == 0 ? 1 : permutations(m, n - 1) * (m - n + 1)
   end
@@ -60,6 +62,7 @@ p count_special_numbers(2 * 10 ** 9)
 #######################
 # https://leetcode.com/problems/count-numbers-with-unique-digits-ii/description/
 # 3032. Count Numbers With Unique Digits II
+# Explanation: https://algo.monster/liteproblems/3032
 
 # @param {Integer} a
 # @param {Integer} b
@@ -75,3 +78,36 @@ p number_count(9, 19)
 # Output: 10
 p number_count(80, 120)
 # Output: 27
+
+
+#######################
+# https://leetcode.com/problems/count-numbers-with-unique-digits/description/
+# 357. Count Numbers with Unique Digits
+# Explanation: https://algo.monster/liteproblems/357
+
+# @param {Integer} n
+# @return {Integer}
+def count_numbers_with_unique_digits(n)
+  # (1...n).reduce(0) { _1 + 9 * permutations(9, _2 - 1) }
+  n.times.sum{|x| 9 * (10-x..9).reduce(1,:*) } + 1
+end
+
+puts "Count Numbers With Unique Digits"
+p count_numbers_with_unique_digits(0)
+# Output: 1
+p count_numbers_with_unique_digits(1)
+# Output: 10
+p count_numbers_with_unique_digits(2)
+# Output: 91
+p count_numbers_with_unique_digits(3)
+# Output: 739
+p count_numbers_with_unique_digits(4)
+# Output: 5275
+p count_numbers_with_unique_digits(5)
+# Output: 32491
+p count_numbers_with_unique_digits(6)
+# Output: 168571
+p count_numbers_with_unique_digits(7)
+# Output: 712891
+p count_numbers_with_unique_digits(8)
+# Output: 2345851
