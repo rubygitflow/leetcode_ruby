@@ -88,7 +88,6 @@ p number_count(80, 120)
 # @param {Integer} n
 # @return {Integer}
 def count_numbers_with_unique_digits(n)
-  # (1...n).reduce(0) { _1 + 9 * permutations(9, _2 - 1) }
   n.times.sum{|x| 9 * (10-x..9).reduce(1,:*) } + 1
 end
 
