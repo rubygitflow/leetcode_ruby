@@ -13,7 +13,12 @@ end
 # @return {Boolean}
 def contains_duplicate_alt(nums)
   # https://docs.ruby-lang.org/en/master/Set.html
-  Set[*nums].size != nums.size
+  # Set[*nums].size != nums.size
+  visited = Set[]
+  for num in nums
+    return true unless visited.add?(num)
+  end
+  false
 end
 
 p contains_duplicate([1,2,3,1])
