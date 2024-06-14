@@ -15,3 +15,7 @@ p alternate_digit_sum(111)
 # Output: 1
 p alternate_digit_sum(886996)
 # Output: 0
+p alternate_digit_sum(885996)
+# Output: -1
+p alternate_digit_sum(886995)
+# Output: 1
