@@ -14,6 +14,7 @@ end
 def contains_duplicate_alt(nums)
   # https://docs.ruby-lang.org/en/master/Set.html
   # Set[*nums].size != nums.size
+  # No need to interate through the entire list. We return a boolean at the first duplicate
   visited = Set[]
   for num in nums
     return true unless visited.add?(num)
