@@ -19,6 +19,7 @@ Solving algorithmic problems on leetcode.com
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/two_sum.rb)
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) >>> [contains_duplicate.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/contains_duplicate.rb)
 - [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) >>> [contains_duplicate.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/contains_duplicate.rb)
+- [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) >>> [contains_duplicate.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/contains_duplicate.rb)
 - [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) >>> [sliding_window_median.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/sliding_window_median.rb)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [258. Add Digits](https://leetcode.com/problems/add-digits/) >>> [alternating_digit_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/alternating_digit_sum.rb)
@@ -105,7 +106,7 @@ Solving algorithmic problems on leetcode.com
 - [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
 - [How to transform a hash/dictionary/map] >>> [how_to_transform_dictionary.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/how_to_transform_dictionary.rb)
 
-**Tasks: 94(+7)  >>> Files: 74**
+**Tasks: 95(+7)  >>> Files: 74**
 
 ## Install
 ```shell

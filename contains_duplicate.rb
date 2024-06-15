@@ -63,3 +63,40 @@ p(contains_nearby_duplicate([1,0,1,1], 1))
 # Output: true
 p(contains_nearby_duplicate([1,2,3,1,2,3], 2))
 # Output: false
+
+
+####################
+# https://leetcode.com/problems/contains-duplicate-iii/description/
+# 220. Contains Duplicate III
+
+# @param {Integer[]} nums
+# @param {Integer} index_diff
+# @param {Integer} value_diff
+# @return {Boolean}
+def contains_nearby_almost_duplicate(nums, index_diff, value_diff)
+   return false if nums.size < 2 || value_diff < 0 || index_diff < 1
+
+  nearby = value_diff + 1
+  visited = {}
+  nums.each_with_index do |num, i|
+    idx = num / nearby
+    # because of rounded idx we almost verify idx-1 and idx+1
+    return true if  visited.key?(idx) && i - visited[idx][0] <= index_diff or
+                    visited.key?(idx-1) &&
+                    i - visited[idx-1][0] <= index_diff &&
+                    (num - visited[idx-1][1]).abs <= value_diff or
+                    visited.key?(idx+1) &&
+                    i - visited[idx+1][0] <= index_diff &&
+                    (num - visited[idx+1][1]).abs <= value_diff
+
+    visited[idx] = [i, num]
+  end
+  return false
+end
+
+
+puts("Contains Duplicate III")
+p(contains_nearby_almost_duplicate([1,2,3,1], 3, 0))
+# Output: true
+p(contains_nearby_almost_duplicate([1,5,9,1,5,9], 2, 3))
+# Output: false
