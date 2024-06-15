@@ -100,3 +100,5 @@ p(contains_nearby_almost_duplicate([1,2,3,1], 3, 0))
 # Output: true
 p(contains_nearby_almost_duplicate([1,5,9,1,5,9], 2, 3))
 # Output: false
+p(contains_nearby_almost_duplicate([], 2, 3))
+# Output: false
