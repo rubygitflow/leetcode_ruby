@@ -29,12 +29,34 @@ p get_lucky("zbax", 2)
 # @param {Integer} n
 # @return {Boolean}
 def is_happy(n)
-  return false if n.zero?
+  return false if n < 1
   # puts n
   # while n>9  # 7 < 9, but it is the happy number
   # while n != 1 && n != 4
   while ![1,4].include?(n) # Statistics are a stubborn thing
     n = n.digits.reduce(0) { _1 + _2 * _2 }
+    # puts n
+  end
+  n == 1
+end
+
+# @param {Integer} n
+# @return {Boolean}
+def is_happy_ii(n)
+  # puts n
+  return false if n < 1
+
+  def iter(num)
+    out = 0
+    while num > 0
+      num, v = num.divmod(10)
+      out += v * v
+    end
+    out
+  end
+
+  while ![1,4].include?(n) # Statistics are a stubborn thing
+    n = iter(n)
     # puts n
   end
   n == 1
@@ -69,6 +91,36 @@ p is_happy(7414)
 p is_happy(9999976)
 # Output: true
 
+
+puts "Happy Number II"
+p is_happy_ii(0)
+# Output: false
+p is_happy_ii(2)
+# Output: false
+p is_happy_ii(2**31 - 1) # 2147483647
+# Output: false
+p is_happy_ii(4722354576)
+# Output: false
+p is_happy_ii(9999975)
+# Output: false
+
+p is_happy_ii(7)
+# Output: true
+p is_happy_ii(19)
+# Output: true
+p is_happy_ii(99924)
+# Output: true
+p is_happy_ii(85226)
+# Output: true
+p is_happy_ii(72781)
+# Output: true
+p is_happy_ii(57052)
+# Output: true
+p is_happy_ii(7414)
+# Output: true
+p is_happy_ii(9999976)
+# Output: true
+
 def discovering_happy_numbers
   puts "Happy Numbers list"
   out = []
@@ -94,3 +146,16 @@ def count_happy_numbers
 end
 
 # p count_happy_numbers
+
+def count_happy_numbers_ii
+  puts "Quantity of Happy Numbers"
+  # 1_418_854/10_000_000
+  out = 0
+  # for i in (1..(2**31 - 1))
+  for i in (1..10_000_000)
+    out += 1 if is_happy_ii(i)
+  end
+  out
+end
+
+# p count_happy_numbers_ii
