@@ -69,6 +69,7 @@ Solving algorithmic problems on leetcode.com
 - [1744. Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/) >>> [favorite_candy_on_favorite_day.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/favorite_candy_on_favorite_day.rb)
 - [1748. Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) >>> [rearrange_characters.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/rearrange_characters.rb)
 - [1870. Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/) >>> [minimum_speed_to_arrive_on_time.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_speed_to_arrive_on_time.rb)
+- [1871. Jump Game VII](https://leetcode.com/problems/jump-game-vii/) >>> [jump_game.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/jump_game.rb)
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/concatenation_of_array.rb)
 - [1945. Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) >>> [sum_of_digits.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/sum_of_digits.rb)
 - [1977. Number of Ways to Separate Numbers](https://leetcode.com/problems/number-of-ways-to-separate-numbers/) >>> [number_ways_to_separate_numbers.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/number_ways_to_separate_numbers.rb)
@@ -110,7 +111,7 @@ Solving algorithmic problems on leetcode.com
 - [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
 - [How to transform a hash/dictionary/map] >>> [how_to_transform_dictionary.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/how_to_transform_dictionary.rb)
 
-**Tasks: 99(+7)  >>> Files: 77**
+**Tasks: 100(+7)  >>> Files: 77**
 
 ## Install
 ```shell
