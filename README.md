@@ -12,6 +12,7 @@ Solving algorithmic problems on leetcode.com
 - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) >>> [merging_k_sorted_lists.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/merging_k_sorted_lists.rb)
 - [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) >>> [search_in_rotated_sorted_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/search_in_rotated_sorted_array.rb)
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
+- [55. Jump Game](https://leetcode.com/problems/jump-game/) >>> [jump_game.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/jump_game.rb)
 - [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) >>> [sqrt_x.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/sqrt_x.rb)
 - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) >>> [binary_search.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/binary_search.rb)
 - [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) >>> [search_in_rotated_sorted_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/search_in_rotated_sorted_array.rb)
@@ -109,7 +110,7 @@ Solving algorithmic problems on leetcode.com
 - [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
 - [How to transform a hash/dictionary/map] >>> [how_to_transform_dictionary.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/how_to_transform_dictionary.rb)
 
-**Tasks: 98(+7)  >>> Files: 76**
+**Tasks: 99(+7)  >>> Files: 77**
 
 ## Install
 ```shell
