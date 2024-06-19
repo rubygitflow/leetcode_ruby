@@ -22,9 +22,31 @@ def count_and_say(n)
   sequence
 end
 
+
+# @param {Integer} n
+# @return {String}
+def count_and_say_ii(n)
+  if n == 1
+    '1'
+  else
+    count_and_say_ii(n - 1)
+    .chars
+    .chunk { _1 }
+    .map { "#{_1[1].size}#{_1[0]}" }
+    .join
+  end
+end
+
 p count_and_say(4)
 # Output: "1211"
 p count_and_say(1)
 # Output: "1"
 # p count_and_say(10)
+# # Output: "13211311123113112211"
+
+p count_and_say_ii(4)
+# Output: "1211"
+p count_and_say_ii(1)
+# Output: "1"
+# p count_and_say_ii(10)
 # # Output: "13211311123113112211"
