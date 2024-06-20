@@ -102,6 +102,7 @@ Solving algorithmic problems on leetcode.com
 - [2976. Minimum Cost to Convert String I](https://leetcode.com/problems/minimum-cost-to-convert-string-i/) >>> [minimum_cost_to_convert_string.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_cost_to_convert_string.rb)
 - [2977. Minimum Cost to Convert String II](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) >>> [minimum_cost_to_convert_string.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_cost_to_convert_string.rb)
 - [3032. Count Numbers With Unique Digits II](https://leetcode.com/problems/count-numbers-with-unique-digits-ii/) >>> [count_special_integers.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/count_special_integers.rb)
+- [3043. Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) >>> [common_prefix.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/common_prefix.rb)
 - [3083. Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/) >>> [existence_substring_in_string.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/existence_substring_in_string.rb)
 - [3123. Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/) >>> [find_edges_in_shortest_paths.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/find_edges_in_shortest_paths.rb)
 
@@ -114,7 +115,7 @@ Solving algorithmic problems on leetcode.com
 - [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
 - [How to transform a hash/dictionary/map] >>> [how_to_transform_dictionary.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/how_to_transform_dictionary.rb)
 
-**Tasks: 103(+7)  >>> Files: 80**
+**Tasks: 104(+7)  >>> Files: 80**
 
 ## Install
 ```shell
