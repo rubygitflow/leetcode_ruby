@@ -15,6 +15,7 @@ Solving algorithmic problems on leetcode.com
 - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) >>> [merging_k_sorted_lists.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/merging_k_sorted_lists.rb)
 - [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) >>> [search_in_rotated_sorted_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/search_in_rotated_sorted_array.rb)
 - [38. Count and Say](https://leetcode.com/problems/count-and-say/) >>> [count_and_say.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/count_and_say.rb)
+- [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) >>> [container_with_most_water.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/container_with_most_water.rb)
 - [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/) >>> [multiply_strings.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/multiply_strings.rb)
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) >>> [valid_anagram.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_anagram.rb)
 - [55. Jump Game](https://leetcode.com/problems/jump-game/) >>> [jump_game.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/jump_game.rb)
@@ -117,7 +118,7 @@ Solving algorithmic problems on leetcode.com
 - [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
 - [How to transform a hash/dictionary/map] >>> [how_to_transform_dictionary.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/how_to_transform_dictionary.rb)
 
-**Tasks: 106(+7)  >>> Files: 82**
+**Tasks: 107(+7)  >>> Files: 82**
 
 ## Install
 ```shell
