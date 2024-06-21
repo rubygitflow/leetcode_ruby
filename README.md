@@ -12,6 +12,7 @@ Solving algorithmic problems on leetcode.com
 - [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) >>> [common_prefix.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/common_prefix.rb)
 - [15. 3Sum](https://leetcode.com/problems/3sum/) >>> [three_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/three_sum.rb)
 - [18. 4Sum](https://leetcode.com/problems/4sum/) >>> [four_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/four_sum.rb)
+- [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) >>> [valid_parentheses.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/valid_parentheses.rb)
 - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) >>> [merging_k_sorted_lists.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/merging_k_sorted_lists.rb)
 - [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) >>> [search_in_rotated_sorted_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/search_in_rotated_sorted_array.rb)
 - [38. Count and Say](https://leetcode.com/problems/count-and-say/) >>> [count_and_say.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/count_and_say.rb)
@@ -118,7 +119,7 @@ Solving algorithmic problems on leetcode.com
 - [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
 - [How to transform a hash/dictionary/map] >>> [how_to_transform_dictionary.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/how_to_transform_dictionary.rb)
 
-**Tasks: 107(+7)  >>> Files: 82**
+**Tasks: 108(+7)  >>> Files: 83**
 
 ## Install
 ```shell
