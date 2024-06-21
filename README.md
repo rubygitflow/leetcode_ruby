@@ -7,6 +7,7 @@ Solving algorithmic problems on leetcode.com
 - [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) >>> [median_of_two_sorted_arrays.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/median_of_two_sorted_arrays.rb)
 - [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) >>> [longest_palindromic_substring.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/longest_palindromic_substring.rb)
 - [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) >>> [reverse_integer.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/reverse_integer.rb)
+- [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) >>> [palindrome_number.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/palindrome_number.rb)
 - [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) >>> [common_prefix.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/common_prefix.rb)
 - [15. 3Sum](https://leetcode.com/problems/3sum/) >>> [three_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/three_sum.rb)
 - [18. 4Sum](https://leetcode.com/problems/4sum/) >>> [four_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/four_sum.rb)
@@ -115,7 +116,7 @@ Solving algorithmic problems on leetcode.com
 - [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
 - [How to transform a hash/dictionary/map] >>> [how_to_transform_dictionary.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/how_to_transform_dictionary.rb)
 
-**Tasks: 104(+7)  >>> Files: 80**
+**Tasks: 105(+7)  >>> Files: 81**
 
 ## Install
 ```shell
