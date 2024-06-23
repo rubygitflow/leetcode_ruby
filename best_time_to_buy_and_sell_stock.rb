@@ -134,3 +134,26 @@ p(max_profit_iv(2, [3,2,6,7,5,0,3]))
 # Output: 8
 p(max_profit_iv(2, [3,2,6,5,0,3]))
 # Output: 7
+
+
+#######################
+# https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/
+# 309. Best Time to Buy and Sell Stock with Cooldown
+# Explanation: https://algo.monster/liteproblems/309
+
+# @param {Integer[]} prices
+# @return {Integer}
+def max_profit_with_hold(prices)
+  return 0 if prices.size < 2
+
+  prices[1..-1].reduce([0, -prices.first, 0]) {|(sold, hold, rest), price|
+    [[hold + price, sold].max, [rest - price, hold].max, [sold, hold, rest].max]
+  }.max
+end
+
+
+puts("Best Time to Buy and Sell Stock with Cooldown")
+p(max_profit_with_hold([1,2,3,0,2]))
+# Output: 3
+p(max_profit_with_hold([1]))
+# Output: 0
