@@ -157,3 +157,31 @@ p(max_profit_with_hold([1,2,3,0,2]))
 # Output: 3
 p(max_profit_with_hold([1]))
 # Output: 0
+
+
+#######################
+# https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/
+# 714. Best Time to Buy and Sell Stock with Transaction Fee
+
+
+# @param {Integer[]} prices
+# @param {Integer} fee
+# @return {Integer}
+def max_profit_after_fee(prices, fee)
+  buy = -prices[0]
+  prices.reduce(0) do |sell, price|
+    buy = sell - price if buy < sell - price
+    sell = (sell < buy + price - fee) ?  (buy + price - fee) : sell
+  end
+end
+
+
+puts("Best Time to Buy and Sell Stock with Transaction Fee")
+p(max_profit_after_fee([1,3,2,8,4,9], 2))
+# Output: 8
+p(max_profit_after_fee([1,3,7,5,10,3], 3))
+# Output: 6
+p(max_profit_after_fee([8,9,7,6,8,8], 2))
+# Output: 0
+p(max_profit_after_fee([8], 2))
+# Output: 0
