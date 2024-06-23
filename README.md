@@ -30,6 +30,7 @@ Solving algorithmic problems on leetcode.com
 - [146. LRU Cache](https://leetcode.com/problems/lru-cache/) >>> [lru_cache.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/lru_cache.rb)
 - [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) >>> [search_in_rotated_sorted_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/search_in_rotated_sorted_array.rb)
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/two_sum.rb)
+- [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) >>> [best_time_to_buy_and_sell_stock.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/best_time_to_buy_and_sell_stock.rb)
 - [202. Happy Number](https://leetcode.com/problems/happy-number/) >>> [sum_of_digits.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/sum_of_digits.rb)
 - [204. Count Primes](https://leetcode.com/problems/count-primes/) >>> [count_primes.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/count_primes.rb)
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) >>> [contains_duplicate.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/contains_duplicate.rb)
@@ -123,7 +124,7 @@ Solving algorithmic problems on leetcode.com
 - [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
 - [How to transform a hash/dictionary/map] >>> [how_to_transform_dictionary.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/how_to_transform_dictionary.rb)
 
-**Tasks: 112(+7)  >>> Files: 85**
+**Tasks: 113(+7)  >>> Files: 85**
 
 ## Install
 ```shell

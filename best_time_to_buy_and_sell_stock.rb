@@ -102,3 +102,35 @@ p(max_profit_iii([1,2,3,4,5]))
 # Output: 4
 p(max_profit_iii([7,6,4,3,1]))
 # Output: 0
+
+
+# ######################
+# https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/
+# 188. Best Time to Buy and Sell Stock IV
+
+# @param {Integer} k
+# @param {Integer[]} prices
+# @return {Integer}
+def max_profit_iv(k, prices)
+  return 0 if prices.size < 2
+
+  prices.reduce([[0], prices[0]]) do |rising_trans, curr|
+    if curr > rising_trans[1]
+      rising_trans[0][-1] += curr - rising_trans[1]
+      [rising_trans[0] , curr]
+    elsif curr < rising_trans[1]
+      [rising_trans[0].push(0), curr]
+    else
+      rising_trans
+    end
+  end.fetch(0).max(k).sum
+end
+
+
+puts("Best Time to Buy and Sell Stock IV")
+p(max_profit_iv(2, [2,4,1]))
+# Output: 2
+p(max_profit_iv(2, [3,2,6,7,5,0,3]))
+# Output: 8
+p(max_profit_iv(2, [3,2,6,5,0,3]))
+# Output: 7
