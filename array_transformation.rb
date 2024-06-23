@@ -31,3 +31,5 @@ p transform_array([6,2,3,4])
 # Output: [6,3,3,4]
 p transform_array([1,6,3,4,3,5])
 # Output: [1,4,4,4,4,5]
+p transform_array([1,5])
+# Output: [1,5]
