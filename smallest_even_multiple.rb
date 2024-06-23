@@ -6,7 +6,7 @@
 # @param {Integer} n
 # @return {Integer}
 def smallest_even_multiple(n)
-  n % 2 == 0 ? n : n * 2
+  n.even? ? n : n * 2
 end
 
 p smallest_even_multiple(5)
