@@ -8,8 +8,7 @@ def min_time_to_type(word)
   start_ch = 'a'.ord
   word.each_byte do |char|
     distance = (start_ch - char).abs
-    distance = [distance, 26 - distance].min
-    seconds += distance
+    seconds += [distance, 26 - distance].min
     start_ch = char
   end
   seconds
