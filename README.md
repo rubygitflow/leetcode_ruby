@@ -89,6 +89,7 @@ Solving algorithmic problems on leetcode.com
 - [1871. Jump Game VII](https://leetcode.com/problems/jump-game-vii/) >>> [jump_game.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/jump_game.rb)
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/concatenation_of_array.rb)
 - [1945. Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) >>> [sum_of_digits.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/sum_of_digits.rb)
+- [1955. Count Number of Special Subsequences](https://leetcode.com/problems/count-number-of-special-subsequences/) >>> [count_number_of_special_subsequences.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/count_number_of_special_subsequences.rb)
 - [1957. Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) >>> [delete_characters_to_make_fancy_string.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/delete_characters_to_make_fancy_string.rb)
 - [1958. Check if Move is Legal](https://leetcode.com/problems/check-if-move-is-legal/) >>> [check_if_move_is_legal.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/check_if_move_is_legal.rb)
 - [1974. Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/) >>> [minimum_time_to_type_word_using_special_typewriter.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/minimum_time_to_type_word_using_special_typewriter.rb)
@@ -133,7 +134,7 @@ Solving algorithmic problems on leetcode.com
 - [Remove all empty elements from a hash/dictionary/map] >>> [remove_all_empty_elements.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/remove_all_empty_elements.rb)
 - [How to transform a hash/dictionary/map] >>> [how_to_transform_dictionary.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/how_to_transform_dictionary.rb)
 
-**Tasks: 122(+7)  >>> Files: 91**
+**Tasks: 123(+7)  >>> Files: 92**
 
 ## Install
 ```shell
