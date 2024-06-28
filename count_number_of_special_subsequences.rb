@@ -2,16 +2,16 @@
 # 1955. Count Number of Special Subsequences
 # Explanation: https://algo.monster/liteproblems/1955
 
-M = 1000000007
+MOD = 10**9 + 7
 
 # @param {Integer[]} nums
 # @return {Integer}
 def count_special_subsequences(nums)
   nums.reduce([0,0,0]) do |(total_zeros, total_ones, total_twos), n|
     [
-      n == 0 ? (1 + 2*total_zeros) % M : total_zeros,
-      n == 1 ? (total_zeros + 2*total_ones) % M : total_ones,
-      n == 2 ? (total_ones  + 2*total_twos) % M : total_twos
+      n == 0 ? (1 + 2*total_zeros) % MOD : total_zeros,
+      n == 1 ? (total_zeros + 2*total_ones) % MOD : total_ones,
+      n == 2 ? (total_ones  + 2*total_twos) % MOD : total_twos
     ]
   end[2]
 end
