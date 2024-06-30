@@ -139,10 +139,15 @@ Solving algorithmic problems on leetcode.com
 ## Install
 ```shell
 $ git clone git@github.com:rubygitflow/leetcode_ruby.git && cd leetcode_ruby/
-$ gem install algorithms
+$ bundle
 ```
 
 ## Run example
 ```shell
 $ ruby latest_time_by_replacing_hidden_digits.rb
+```
+
+## Run tests
+```shell
+$ ruby -Ilib:test test/full_test.rb TEST
 ```
