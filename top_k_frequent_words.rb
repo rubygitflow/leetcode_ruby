@@ -9,8 +9,8 @@ def top_k_frequent_words(words, k)
   words.tally.max(k.zero? ? words.size : k.abs) {|(ka, va), (kb, vb)| va == vb ? kb <=> ka : va <=> vb }.map { _1[0] }
 end
 
-unless ARGV.include?('TEST')
-  puts "Top K Frequent Words (max)"
+require_relative 'test/cover_test_cases'
+test_case "Top K Frequent Words (max)" do
   p(top_k_frequent_words(["i","love","leetcode","i","love","coding"], 2))
   # Output: ["i","love"]
   p(top_k_frequent_words(["the","day","is","sunny","the","the","the","sunny","is","is"], 4))
@@ -29,8 +29,7 @@ def top_k_frequent_words_ii(words, k)
   words.tally.sort_by {|word, count|  [-count, word] }.take(k.zero? ? words.size : k.abs).map { _1[0] }
 end
 
-unless ARGV.include?('TEST')
-  puts "Top K Frequent Words (sort_by)"
+test_case "Top K Frequent Words (sort_by)" do
   p(top_k_frequent_words_ii(["i","love","leetcode","i","love","coding"], 2))
   # Output: ["i","love"]
   p(top_k_frequent_words_ii(["the","day","is","sunny","the","the","the","sunny","is","is"], 4))
@@ -54,8 +53,7 @@ def top_k_frequent_elements(nums, k = 0)
   nums.tally.max(k.zero? ? nums.size : k.abs) {|(ka, va), (kb, vb)| va == vb ? kb <=> ka : va <=> vb }.map { _1[0] }
 end
 
-unless ARGV.include?('TEST')
-  puts "Top K Frequent Elements (max)"
+test_case "Top K Frequent Elements (max)" do
   p(top_k_frequent_elements([1,1,1,2,2,3], 2))
   # Output: [1,2]
   p(top_k_frequent_elements([1], 1))
@@ -82,8 +80,7 @@ def top_k_frequent_elements_ii(nums, k = 0)
   nums.tally.sort {|(ka, va), (kb, vb)| va == vb ? ka <=> kb : vb <=> va }.take(k.zero? ? nums.size : k.abs).map { _1[0] }
 end
 
-unless ARGV.include?('TEST')
-  puts "Top K Frequent Elements (sort)"
+test_case "Top K Frequent Elements (sort)" do
   p(top_k_frequent_elements_ii([1,1,1,2,2,3], 2))
   # Output: [1,2]
   p(top_k_frequent_elements_ii([1], 1))

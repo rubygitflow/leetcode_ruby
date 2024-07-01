@@ -8,8 +8,8 @@ def single_number(nums)
 end
 
 
-unless ARGV.include?('TEST')
-  puts("Single Number")
+require_relative 'test/cover_test_cases'
+test_case "Single Number" do
   p(single_number([2,2,1,1,1]))
   # Output: 1
   p(single_number([2,2,1]))
@@ -32,8 +32,7 @@ def single_number_ii(nums)
   nums.tally.find {|k, v| v == 1 }&.first || 0
 end
 
-unless ARGV.include?('TEST')
-  puts("Single Number II")
+test_case "Single Number II" do
   p(single_number_ii([2,2,3,2]))
   # Output: 3
   p(single_number_ii([0,1,0,1,0,1,99]))

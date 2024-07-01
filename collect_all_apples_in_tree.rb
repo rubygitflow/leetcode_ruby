@@ -30,8 +30,8 @@ def min_time(n, edges, has_apple)
   dfs.(0, 0)
 end
 
-unless ARGV.include?('TEST')
-  puts("Minimum Time to Collect All Apples in a Tree")
+require_relative 'test/cover_test_cases'
+test_case "Minimum Time to Collect All Apples in a Tree" do
   p min_time(7,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]],[false,false,true,false,true,true,false])
   # Output: 8
   p min_time(7,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]],[false,false,true,false,false,true,false])
