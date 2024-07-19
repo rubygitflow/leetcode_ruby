@@ -16,13 +16,16 @@ def count_special_subsequences(nums)
   end[2]
 end
 
-p(count_special_subsequences([0,1,2]))
-# Output: 1
-p(count_special_subsequences([0,1,2,0]))
-# Output: 1
-p(count_special_subsequences([0,1,2,2]))
-# Output: 3
-p(count_special_subsequences([2,2,0,0]))
-# Output: 0
-p(count_special_subsequences([0,1,2,0,1,2]))
-# Output: 7
+require_relative 'test/cover_test_cases'
+test_case "Delete Characters to Make Fancy String (reduce)" do
+  p(count_special_subsequences([0,1,2]))
+  # Output: 1
+  p(count_special_subsequences([0,1,2,0]))
+  # Output: 1
+  p(count_special_subsequences([0,1,2,2]))
+  # Output: 3
+  p(count_special_subsequences([2,2,0,0]))
+  # Output: 0
+  p(count_special_subsequences([0,1,2,0,1,2]))
+  # Output: 7
+end

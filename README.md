@@ -149,5 +149,5 @@ $ ruby latest_time_by_replacing_hidden_digits.rb
 
 ## Run tests
 ```shell
-$ ruby -Ilib:test test/full_test.rb TEST
+$ ruby -Ilib:test test/full_test.rb -v TEST
 ```

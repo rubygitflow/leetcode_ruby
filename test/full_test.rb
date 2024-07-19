@@ -7,9 +7,19 @@ require "minitest/autorun"
   ../single_number
   ../top_k_frequent_words
   ../delete_characters_to_make_fancy_string
+  ../count_number_of_special_subsequences
 ].each { require_relative _1 }
 
 class FullTest < Minitest::Test
+
+  def test_the_count_number_of_special_subsequences
+    assert_equal count_special_subsequences([0,1,2]), 1
+    assert_equal count_special_subsequences([0,1,2,0]), 1
+    assert_equal count_special_subsequences([0,1,2,2]), 3
+    assert_equal count_special_subsequences([2,2,0,0]), 0
+    assert_equal count_special_subsequences([0,1,2,0,1,2]), 7
+  end
+
 
   def test_the_delete_characters_to_make_fancy_string_forloop
     assert_equal make_fancy_string_ii("leeetcode"), "leetcode"
@@ -24,13 +34,13 @@ class FullTest < Minitest::Test
   end
 
 
-  # Ruby-case only
-  # def test_the_top_k_frequent_words
-  #   assert_equal ["i","love"], top_k_frequent_words(["i","love","leetcode","i","love","coding"], 2)
-  #   assert_equal ["the","is","sunny","day"], top_k_frequent_words(["the","day","is","sunny","the","the","the","sunny","is","is"], 4)
-  #   assert_equal ["is", "the"], top_k_frequent_words(["the","the","the","day","sunny","sunny","is","is","is"], 2)
-  #   assert_equal ["is", "the", "sunny", "day"], top_k_frequent_words(["the","the","the","day","sunny","sunny","is","is","is"], 6)
-  # end
+  def test_the_top_k_frequent_words
+    skip "Ruby-case only"
+    assert_equal ["i","love"], top_k_frequent_words(["i","love","leetcode","i","love","coding"], 2)
+    assert_equal ["the","is","sunny","day"], top_k_frequent_words(["the","day","is","sunny","the","the","the","sunny","is","is"], 4)
+    assert_equal ["is", "the"], top_k_frequent_words(["the","the","the","day","sunny","sunny","is","is","is"], 2)
+    assert_equal ["is", "the", "sunny", "day"], top_k_frequent_words(["the","the","the","day","sunny","sunny","is","is","is"], 6)
+  end
 
   def test_the_top_k_frequent_words_ii
     assert_equal top_k_frequent_words_ii(["i","love","leetcode","i","love","coding"], 2), ["i","love"]
@@ -39,17 +49,17 @@ class FullTest < Minitest::Test
     assert_equal top_k_frequent_words_ii(["the","the","the","day","sunny","sunny","is","is","is"], 6), ["is", "the", "sunny", "day"]
   end
 
-  # Ruby-case only
-  # def test_the_top_k_frequent_elements
-  #   assert_equal top_k_frequent_elements([1,1,1,2,2,3], 2), [1,2]
-  #   assert_equal top_k_frequent_elements([1], 1), [1]
-  #   assert_equal top_k_frequent_elements([10,11,13,25,22,30,42,10], 2), [10, 11]
-  #   assert_equal top_k_frequent_elements([10,11,13,25,22,30,42,10], 3), [10, 11, 13]
-  #   assert_equal top_k_frequent_elements([10,11,13,25,22,30,42,10], 0), [10, 11, 13, 22, 25, 30, 42]
-  #   assert_equal top_k_frequent_elements([10,11,13,25,22,30,42,10], -2), [10, 11]
-  #   assert_equal top_k_frequent_elements([1,1,1,2,2,3,0,0,0,5,5,5], 2), [0, 1]
-  #   assert_equal top_k_frequent_elements([1,1,1,2,2,3,5,5,5,0,0,0], 2), [0, 1]
-  # end
+  def test_the_top_k_frequent_elements
+    skip "Ruby-case only"
+    assert_equal top_k_frequent_elements([1,1,1,2,2,3], 2), [1,2]
+    assert_equal top_k_frequent_elements([1], 1), [1]
+    assert_equal top_k_frequent_elements([10,11,13,25,22,30,42,10], 2), [10, 11]
+    assert_equal top_k_frequent_elements([10,11,13,25,22,30,42,10], 3), [10, 11, 13]
+    assert_equal top_k_frequent_elements([10,11,13,25,22,30,42,10], 0), [10, 11, 13, 22, 25, 30, 42]
+    assert_equal top_k_frequent_elements([10,11,13,25,22,30,42,10], -2), [10, 11]
+    assert_equal top_k_frequent_elements([1,1,1,2,2,3,0,0,0,5,5,5], 2), [0, 1]
+    assert_equal top_k_frequent_elements([1,1,1,2,2,3,5,5,5,0,0,0], 2), [0, 1]
+  end
 
   def test_the_top_k_frequent_elements_ii
     assert_equal top_k_frequent_elements_ii([1,1,1,2,2,3], 2), [1,2]
