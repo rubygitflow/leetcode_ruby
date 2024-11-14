@@ -7,9 +7,6 @@
 # @param {Character} color
 # @return {Boolean}
 def check_move(board, r_move, c_move, color)
-  puts "color: #{color}"
-  board.each { p _1 }
-
   m, n = board.size, board[0].size
   move_direction = [[0, 1], [0, -1], [1, 0], [-1, 0], [1, 1], [-1, -1], [1, -1], [-1, 1]]
   for dr, dc in move_direction
@@ -29,9 +26,16 @@ def check_move(board, r_move, c_move, color)
 end
 
 
-board, r_move, c_move, color = [[".",".",".","B",".",".",".","."],[".",".",".","W",".",".",".","."],[".",".",".","W",".",".",".","."],[".",".",".","W",".",".",".","."],["W","B","B",".","W","W","W","B"],[".",".",".","B",".",".",".","."],[".",".",".","B",".",".",".","."],[".",".",".","W",".",".",".","."]], 4, 3, "B"
-p(check_move(board, r_move, c_move, color))
-# Output: true
-board, r_move, c_move, color = [[".",".",".",".",".",".",".","."],[".","B",".",".","W",".",".","."],[".",".","W",".",".",".",".","."],[".",".",".","W","B",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".","B","W",".","."],[".",".",".",".",".",".","W","."],[".",".",".",".",".",".",".","B"]], 4, 4, "W"
-p(check_move(board, r_move, c_move, color))
-# Output: false
+require_relative 'test/cover_test_cases'
+test_case "Check if Move is Legal" do
+  board, r_move, c_move, color = [[".",".",".","B",".",".",".","."],[".",".",".","W",".",".",".","."],[".",".",".","W",".",".",".","."],[".",".",".","W",".",".",".","."],["W","B","B",".","W","W","W","B"],[".",".",".","B",".",".",".","."],[".",".",".","B",".",".",".","."],[".",".",".","W",".",".",".","."]], 4, 3, "B"
+  puts "color: #{color}"
+  board.each { p _1 }
+  p(check_move(board, r_move, c_move, color))
+  # Output: true
+  board, r_move, c_move, color = [[".",".",".",".",".",".",".","."],[".","B",".",".","W",".",".","."],[".",".","W",".",".",".",".","."],[".",".",".","W","B",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".","B","W",".","."],[".",".",".",".",".",".","W","."],[".",".",".",".",".",".",".","B"]], 4, 4, "W"
+  puts "color: #{color}"
+  board.each { p _1 }
+  p(check_move(board, r_move, c_move, color))
+  # Output: false
+end

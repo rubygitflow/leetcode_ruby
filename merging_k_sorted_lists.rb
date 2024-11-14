@@ -41,11 +41,16 @@ def merge_k_lists(lists)
   head.next.nil? ? ListNode.new(nil) : head.next
 end
 
-puts merge_k_lists([[1,4,5],[1,3,4],[2,6]]).to_s
-# Output: [1,1,2,3,4,4,5,6]
-puts merge_k_lists([]).to_s
-# Output: []
-puts merge_k_lists([[]]).to_s
-# Output: []
-puts merge_k_lists([[11,14,15],[21,23,24],[2,6]]).to_s
-# Output: [2,6,11,14,15,21,23,24]
+require_relative 'test/cover_test_cases'
+test_case "Merge k Sorted Lists" do
+  puts merge_k_lists([[1,4,5],[1,3,4],[2,6]]).to_s
+  # Output: [1,1,2,3,4,4,5,6]
+  puts merge_k_lists([]).to_s
+  # Output: []
+  puts merge_k_lists([[]]).to_s
+  # Output: []
+  puts merge_k_lists([[11,14,15],[21,23,24],[2,6]]).to_s
+  # Output: [2,6,11,14,15,21,23,24]
+  puts merge_k_lists([[2,26,64,88,96,96],[8,20,65,86],[1,4,16,42,58,61,69],[1,84,86]]).to_s
+  # Output: [1, 1, 2, 4, 8, 16, 20, 26, 42, 58, 61, 64, 65, 69, 84, 86, 86, 88, 96, 96]
+end

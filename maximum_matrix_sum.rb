@@ -46,20 +46,24 @@ def max_matrix_sum_iii(matrix)
   cnt.even? || mi == 0 ? total : total - mi * 2
 end
 
-puts("FOR-loop")
-p(max_matrix_sum([[1,-1],[-1,1]]))
-# Output: 4
-p(max_matrix_sum([[1,2,3],[-1,-2,-3],[1,2,3]]))
-# Output: 16
+require_relative 'test/cover_test_cases'
+test_case "Maximum Matrix Sum (FOR-loop)" do
+  p(max_matrix_sum([[1,-1],[-1,1]]))
+  # Output: 4
+  p(max_matrix_sum([[1,2,3],[-1,-2,-3],[1,2,3]]))
+  # Output: 16
+end
 
-puts("matrix.reduce")
-p(max_matrix_sum_ii([[1,-1],[-1,1]]))
-# Output: 4
-p(max_matrix_sum_ii([[1,2,3],[-1,-2,-3],[1,2,3]]))
-# Output: 16
+test_case "Maximum Matrix Sum (reduce)" do
+  p(max_matrix_sum_ii([[1,-1],[-1,1]]))
+  # Output: 4
+  p(max_matrix_sum_ii([[1,2,3],[-1,-2,-3],[1,2,3]]))
+  # Output: 16
+end
 
-puts("matrix.each_with_object")
-p(max_matrix_sum_iii([[1,-1],[-1,1]]))
-# Output: 4
-p(max_matrix_sum_iii([[1,2,3],[-1,-2,-3],[1,2,3]]))
-# Output: 16
+test_case "Maximum Matrix Sum (each_with_object)" do
+  p(max_matrix_sum_iii([[1,-1],[-1,1]]))
+  # Output: 4
+  p(max_matrix_sum_iii([[1,2,3],[-1,-2,-3],[1,2,3]]))
+  # Output: 16
+end

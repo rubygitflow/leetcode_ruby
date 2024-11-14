@@ -15,9 +15,12 @@ def min_time_to_type(word)
 end
 
 
-p(min_time_to_type("abc"))
-# Output: 5
-p(min_time_to_type("bza"))
-# Output: 7
-p(min_time_to_type("zjpc"))
-# Output: 34
+require_relative 'test/cover_test_cases'
+test_case "Minimum Time to Type Word Using Special Typewriter" do
+  p(min_time_to_type("abc"))
+  # Output: 5
+  p(min_time_to_type("bza"))
+  # Output: 7
+  p(min_time_to_type("zjpc"))
+  # Output: 34
+end

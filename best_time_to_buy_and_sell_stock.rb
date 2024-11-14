@@ -19,12 +19,13 @@ def max_profit(prices)
 end
 
 
-puts("Best Time to Buy and Sell Stock")
-p(max_profit([7,1,5,3,6,4]))
-# Output: 5
-p(max_profit([7,6,4,3,1]))
-# Output: 0
-
+require_relative 'test/cover_test_cases'
+test_case "Best Time to Buy and Sell Stock" do
+  p(max_profit([7,1,5,3,6,4]))
+  # Output: 5
+  p(max_profit([7,6,4,3,1]))
+  # Output: 0
+end
 
 #######################
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
@@ -48,29 +49,31 @@ def max_profit_ii_ex(prices)
 end
 
 
-puts("Best Time to Buy and Sell Stock II")
-p(max_profit_ii([7,1,5,3,6,4]))
-# Output: 7
-p(max_profit_ii([1,2,3,4,5]))
-# Output: 4
-p(max_profit_ii([7,6,4,3,1]))
-# Output: 0
-p(max_profit_ii([7]))
-# Output: 0
-p(max_profit_ii([]))
-# Output: 0
+test_case "Best Time to Buy and Sell Stock II" do
+  p(max_profit_ii([7,1,5,3,6,4]))
+  # Output: 7
+  p(max_profit_ii([1,2,3,4,5]))
+  # Output: 4
+  p(max_profit_ii([7,6,4,3,1]))
+  # Output: 0
+  p(max_profit_ii([7]))
+  # Output: 0
+  p(max_profit_ii([]))
+  # Output: 0
+end
 
-p(max_profit_ii_ex([7,1,5,3,6,4]))
-# Output: 7
-p(max_profit_ii_ex([1,2,3,4,5]))
-# Output: 4
-p(max_profit_ii_ex([7,6,4,3,1]))
-# Output: 0
-p(max_profit_ii_ex([7]))
-# Output: 0
-p(max_profit_ii_ex([]))
-# Output: 0
-
+test_case "Best Time to Buy and Sell Stock II Ex" do
+  p(max_profit_ii_ex([7,1,5,3,6,4]))
+  # Output: 7
+  p(max_profit_ii_ex([1,2,3,4,5]))
+  # Output: 4
+  p(max_profit_ii_ex([7,6,4,3,1]))
+  # Output: 0
+  p(max_profit_ii_ex([7]))
+  # Output: 0
+  p(max_profit_ii_ex([]))
+  # Output: 0
+end
 
 #######################
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/
@@ -95,14 +98,14 @@ def max_profit_iii(prices)
 end
 
 
-puts("Best Time to Buy and Sell Stock III")
-p(max_profit_iii([3,3,5,0,0,3,1,4]))
-# Output: 6
-p(max_profit_iii([1,2,3,4,5]))
-# Output: 4
-p(max_profit_iii([7,6,4,3,1]))
-# Output: 0
-
+test_case "Best Time to Buy and Sell Stock III" do
+  p(max_profit_iii([3,3,5,0,0,3,1,4]))
+  # Output: 6
+  p(max_profit_iii([1,2,3,4,5]))
+  # Output: 4
+  p(max_profit_iii([7,6,4,3,1]))
+  # Output: 0
+end
 
 # ######################
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/
@@ -127,14 +130,14 @@ def max_profit_iv(k, prices)
 end
 
 
-puts("Best Time to Buy and Sell Stock IV")
-p(max_profit_iv(2, [2,4,1]))
-# Output: 2
-p(max_profit_iv(2, [3,2,6,7,5,0,3]))
-# Output: 8
-p(max_profit_iv(2, [3,2,6,5,0,3]))
-# Output: 7
-
+test_case "Best Time to Buy and Sell Stock IV" do
+  p(max_profit_iv(2, [2,4,1]))
+  # Output: 2
+  p(max_profit_iv(2, [3,2,6,7,5,0,3]))
+  # Output: 8
+  p(max_profit_iv(2, [3,2,6,5,0,3]))
+  # Output: 7
+end
 
 #######################
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/
@@ -152,12 +155,12 @@ def max_profit_with_hold(prices)
 end
 
 
-puts("Best Time to Buy and Sell Stock with Cooldown")
-p(max_profit_with_hold([1,2,3,0,2]))
-# Output: 3
-p(max_profit_with_hold([1]))
-# Output: 0
-
+test_case "Best Time to Buy and Sell Stock with Cooldown" do
+  p(max_profit_with_hold([1,2,3,0,2]))
+  # Output: 3
+  p(max_profit_with_hold([1]))
+  # Output: 0
+end
 
 #######################
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/
@@ -177,12 +180,13 @@ def max_profit_after_fee(prices, fee)
 end
 
 
-puts("Best Time to Buy and Sell Stock with Transaction Fee")
-p(max_profit_after_fee([1,3,2,8,4,9], 2))
-# Output: 8
-p(max_profit_after_fee([1,3,7,5,10,3], 3))
-# Output: 6
-p(max_profit_after_fee([8,9,7,6,8,8], 2))
-# Output: 0
-p(max_profit_after_fee([8], 2))
-# Output: 0
+test_case "Best Time to Buy and Sell Stock with Transaction Fee" do
+  p(max_profit_after_fee([1,3,2,8,4,9], 2))
+  # Output: 8
+  p(max_profit_after_fee([1,3,7,5,10,3], 3))
+  # Output: 6
+  p(max_profit_after_fee([8,9,7,6,8,8], 2))
+  # Output: 0
+  p(max_profit_after_fee([8], 2))
+  # Output: 0
+end

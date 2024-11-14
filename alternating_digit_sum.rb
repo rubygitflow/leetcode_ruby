@@ -9,18 +9,19 @@ def alternate_digit_sum(n)
   n.digits.reverse.reduce(0) {|res,n| pos *= -1; res + n * pos }
 end
 
-puts "Alternating Digit Sum"
-p alternate_digit_sum(521)
-# Output: 4
-p alternate_digit_sum(111)
-# Output: 1
-p alternate_digit_sum(886996)
-# Output: 0
-p alternate_digit_sum(885996)
-# Output: -1
-p alternate_digit_sum(886995)
-# Output: 1
-
+require_relative 'test/cover_test_cases'
+test_case "Alternating Digit Sum" do
+  p alternate_digit_sum(521)
+  # Output: 4
+  p alternate_digit_sum(111)
+  # Output: 1
+  p alternate_digit_sum(886996)
+  # Output: 0
+  p alternate_digit_sum(885996)
+  # Output: -1
+  p alternate_digit_sum(886995)
+  # Output: 1
+end
 
 #############################
 # https://leetcode.com/problems/add-digits/description/
@@ -35,12 +36,13 @@ def add_digits(num)
   (num - 1) % 9 + 1
 end
 
-puts "Add Digits (digital root - Time complexity: O(1))"
-p add_digits(38)
-# Output: 2
-p add_digits(0)
-# Output: 0
-p add_digits(886995)
-# Output: 9
-p add_digits(1)
-# Output: 1
+test_case "Add Digits (digital root - Time complexity: O(1))" do
+  p add_digits(38)
+  # Output: 2
+  p add_digits(0)
+  # Output: 0
+  p add_digits(886995)
+  # Output: 9
+  p add_digits(1)
+  # Output: 1
+end

@@ -18,7 +18,20 @@ class ListNode
     end
     s += "]"
   end
+
+  def to_a
+    out = []
+    return out unless @val
+    out << @val
+    node = @next
+    while node
+      out << node.val
+      node = node.next
+    end
+    out
+  end
 end
+
 
 # creation a linked list from data with closure at pos
 def add_linked_list(data, pos = -1)

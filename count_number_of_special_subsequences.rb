@@ -17,7 +17,7 @@ def count_special_subsequences(nums)
 end
 
 require_relative 'test/cover_test_cases'
-test_case "Delete Characters to Make Fancy String (reduce)" do
+test_case "Count Number of Special Subsequences" do
   p(count_special_subsequences([0,1,2]))
   # Output: 1
   p(count_special_subsequences([0,1,2,0]))
